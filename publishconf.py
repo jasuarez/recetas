@@ -12,3 +12,4 @@ from pelicanconf import *
 
 SITEURL = 'http://cenandoalasnueve.terralan.org'
 
+GOOGLE_ANALYTICS = 'UA-41204788-2'
