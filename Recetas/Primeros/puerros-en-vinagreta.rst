@@ -33,3 +33,6 @@ Preparación:
    por encima con un poco de la yema del huevo.
 
 5. Servir templado.
+
+.. tip:: Como alternativa a los puerros se pueden emplear también espárragos
+         blancos.
