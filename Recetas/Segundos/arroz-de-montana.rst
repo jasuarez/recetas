@@ -11,7 +11,7 @@ Ingredientes (4 - 6 personas):
 - 1 cebolla
 - 1 pimiento verde
 - 200 gr de setas mezcladas
-- 200 gr de salsa de tomate
+- 200 gr de salsa de tomate o TPM [*]_.
 - 50 gr de guisantes
 - 500 gr de arroz (arborio, carnaroli o bomba)
 - 2 dientes de ajo
@@ -50,3 +50,6 @@ Preparación:
 
 8. Retiramos del fuego y dejamos reposar cubierto con un trapo. Remover antes de
    servir.
+
+.. [*] Tomate pelado, sin semillas y cortado en dados macedonia.
+
