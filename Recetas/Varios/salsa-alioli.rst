@@ -1,5 +1,5 @@
-Salsa aliloli
-=============
+Salsa alioli
+============
 
 :tags: salsa
 
