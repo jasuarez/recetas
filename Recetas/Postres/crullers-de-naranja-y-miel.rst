@@ -44,9 +44,10 @@ Preparación:
 
 6. Freirlos en aceite caliente hasta que estén dorados. Para mayor comodidad,
    recortar cada uno con su papel y echar directamente en el aceite. El papel se
-   separará inmediatamente, y se podrá retirar.
+   separará inmediatamente, y se podrá retirar. Una vez dorados retirar y
+   dejarlos sobre papel absorvente.
 
-6. Hacer el glaseado mezclando todos los ingredientes en un cazo.
+7. Hacer el glaseado mezclando todos los ingredientes en un cazo.
 
-7. Añadir el glaseado por encima sobre una reja (para que que el exceso se
+8. Añadir el glaseado por encima sobre una reja (para que que el exceso se
    cole).
