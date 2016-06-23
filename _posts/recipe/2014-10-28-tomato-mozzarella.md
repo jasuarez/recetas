@@ -4,7 +4,6 @@ categories: recipe
 
 # TOP DETAILS
 title: Tomato mozzarella salad
-duration: 3 minutes
 comensales: 1
 tags: [gluten-free, meatless monday]
 

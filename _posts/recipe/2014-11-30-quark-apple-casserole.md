@@ -4,7 +4,6 @@ categories: recipe
 
 # TOP DETAILS
 title: Quark apple casserole
-duration: 1 hour
 comensales: 4
 tags: [gluten-free, meatless monday, refined sugar-free]
 
