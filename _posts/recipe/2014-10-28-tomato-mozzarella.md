@@ -13,7 +13,6 @@ amount: snack
 # IMAGES
 img: tomatoe-mozza
 img-preview: tomatoe-mozza-02
-img-count: 4
 
 # RECIPE
 ingredients:

@@ -13,7 +13,6 @@ amount: meal
 # IMAGES
 img: butter-sage
 img-preview: butter-sage-01
-img-count: 2
   
 # RECIPE  
 ingredients:

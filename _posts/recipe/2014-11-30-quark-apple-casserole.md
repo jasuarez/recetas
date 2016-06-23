@@ -13,7 +13,6 @@ amount: snack
 # IMAGES
 img: quark-apple
 img-preview: quark-apple-03
-img-count: 5
 
 # RECIPE
 ingredients:

@@ -86,26 +86,16 @@
         <div class="small-12 columns">
              <a name="anker-impressions"></a>
             <h3>Impressions</h3>
-            
-            {% for n in (1..{{page.img-count}}) %}  
-                {% if page.img %}
-                <!--
-                <img class="impressions hide-for-print" type="image/jpg" data-interchange="{% for size in page.img-size %}[{{site.baseurl}}/img/{{page.img-impression}}0{{n}}{{size[1]}} ({{size[0]}})]{% unless forloop.last %}, {% endunless %}{% endfor %}">
-                <noscript><img class="caption-media" itemprop="photo" src="{{site.baseurl}}/img/{{ page.img-impression }}0{{n}}-default.jpg"></noscript>
-                -->
                 <img data-sizes="auto"
                     class="lazyload impressions" 
                     src="{{site.baseurl}}/img/{{page.img}}/{{page.img}}-240w.jpg"
-                    data-srcset="{{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-240w.jpg 240w,
-                    {{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-320w.jpg 320w,
-                    {{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-500w.jpg 500w,
-                    {{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-640w.jpg 640w,
-                    {{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-800w.jpg 800w,
-                    {{site.baseurl}}/img/{{page.img}}/{{page.img}}-0{{n}}-970w.jpg 970w"
-                    alt="{{ page.title }} 0{{n}}" />
-           
-                {% endif %}
-            {% endfor %}
+                    data-srcset="{{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-240w.jpg 240w,
+                    {{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-320w.jpg 320w,
+                    {{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-500w.jpg 500w,
+                    {{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-640w.jpg 640w,
+                    {{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-800w.jpg 800w,
+                    {{site.baseurl}}/img/{{page.img}}/{{page.img-preview}}-970w.jpg 970w"
+                    alt="{{ page.title }}" />
         </div>   
              
         <div class="small-12 columns hide-for-print">

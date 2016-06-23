@@ -12,8 +12,6 @@ amount: meal
 
 img: oatmeal
 img-preview: oatmeal-02
-img-count: 2
-
 
 ingredients:
     Main:

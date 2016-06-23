@@ -13,7 +13,6 @@ amount: meal
 
 img: curry-lentil
 img-preview: curry-lentil-02
-img-count: 4
 
 ingredients:
     Main:
