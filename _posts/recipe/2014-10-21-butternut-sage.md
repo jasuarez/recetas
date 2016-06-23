@@ -5,7 +5,6 @@ categories: recipe
 # TOP DETAILS
 title: Butternut squash and sage butter
 duration: 15 minutes
-vessel: Pan
 comensales: 1
 tags: [gluten-free, dairy-free, meatless monday]
 

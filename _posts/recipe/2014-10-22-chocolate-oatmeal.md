@@ -5,7 +5,6 @@ categories: recipe
 title: Chocolate oatmeal
 
 duration: 2 minutes
-vessel: 1 deep dish
 comensales: 1
 tags: [dairy-free, meatless monday, refined sugar-free]
 
