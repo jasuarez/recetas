@@ -14,7 +14,6 @@ title : Atom Feed
   <id>{{ site.baseurl }}/</id>
   <author>
     <name>{{ site.name }}</name>
-    <email>{{ site.author.email }}</email>
   </author>
   <rights type="text">Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.</rights>
   {% for post in site.posts limit:10 %}

@@ -1,13 +1,9 @@
 # Site settings
 title: Plato Frugal
-email: platofrugal@gmail.com
 author: "Cedric Quintes"
 description: Food blog for modest and clean recipes.
 baseurl: "" 
 url: "http://platofrugal.com"
-twitter: platofrugal
-github:  platofrugal
-facebook: platofrugal
 
 image: apple-touch-icon-180x180.png
 # Build settings
