@@ -26,7 +26,7 @@ Ingredientes:
         - some cloves of garlic
         - leafs of basil
         
-instructions:
+Instrucciones:
     1. (02 min): 
         - Half the tomatoes, pluck the mozzarella and the basil and put the ingredients into a bowl or a deep dish.
     2. (01 min): 

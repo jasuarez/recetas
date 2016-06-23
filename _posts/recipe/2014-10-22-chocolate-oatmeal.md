@@ -21,7 +21,7 @@ Ingredientes:
     Optional:
         - 2 tbsp of ground almonds
   
-instructions:
+Instrucciones:
     1. (01 min): 
         - Mash the banana in the deep dish.
     2. (01 min): 
