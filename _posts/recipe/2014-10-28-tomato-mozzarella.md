@@ -14,7 +14,7 @@ img: tomatoe-mozza
 img-preview: tomatoe-mozza-02
 
 # RECIPE
-ingredients:
+Ingredientes:
     Main:
         - 300g tomatoes
         - 1 mozzarella ball

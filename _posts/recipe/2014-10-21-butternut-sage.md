@@ -14,7 +14,7 @@ img: butter-sage
 img-preview: butter-sage-01
   
 # RECIPE  
-ingredients:
+Ingredientes:
     Main:
         - 1 Butternut squash
         - Some white wine

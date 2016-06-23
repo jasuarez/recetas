@@ -14,7 +14,7 @@ img: quark-apple
 img-preview: quark-apple-03
 
 # RECIPE
-ingredients:
+Ingredientes:
     Main:
         - 4 eggs
         - 4 apples

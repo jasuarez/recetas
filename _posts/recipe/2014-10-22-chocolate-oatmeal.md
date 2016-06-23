@@ -12,7 +12,7 @@ tags: [dairy-free, meatless monday, refined sugar-free]
 img: oatmeal
 img-preview: oatmeal-02
 
-ingredients:
+Ingredientes:
     Main:
         - 1 cup of delicate oat flakes
         - 1 banana

@@ -13,7 +13,7 @@ tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
 img: curry-lentil
 img-preview: curry-lentil-02
 
-ingredients:
+Ingredientes:
     Main:
         - 250g red lentils
         - 3-5 carrots
