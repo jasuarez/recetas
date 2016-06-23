@@ -8,7 +8,6 @@ duration: 1 hour
 vessel: casserole dish
 servings: 4
 tags: [gluten-free, meatless monday, refined sugar-free]
-amount: snack
 
 # IMAGES
 img: quark-apple

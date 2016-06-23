@@ -8,7 +8,6 @@ duration: 15 minutes
 vessel: Pan
 servings: 1
 tags: [gluten-free, dairy-free, meatless monday]
-amount: meal
 
 # IMAGES
 img: butter-sage

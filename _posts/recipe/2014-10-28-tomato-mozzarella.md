@@ -8,7 +8,6 @@ duration: 3 minutes
 vessel: a deep dish
 servings: 1
 tags: [gluten-free, meatless monday]
-amount: snack
 
 # IMAGES
 img: tomatoe-mozza

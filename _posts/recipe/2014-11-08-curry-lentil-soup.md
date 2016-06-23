@@ -9,7 +9,6 @@ duration: 20 minutes
 vessel: pot
 servings: 2
 tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
-amount: meal
 
 img: curry-lentil
 img-preview: curry-lentil-02
