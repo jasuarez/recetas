@@ -11,14 +11,6 @@ servings: 2
 tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
 amount: meal
 
-calories: 
-protein: 
-total-carbs: 
-sugars: 
-total-fat:
-saturated-fat: 
-fiber: 
-
 img: curry-lentil
 img-preview: curry-lentil-02
 img-count: 4

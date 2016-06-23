@@ -10,15 +10,6 @@ servings: 4
 tags: [gluten-free, meatless monday, refined sugar-free]
 amount: snack
 
-# NUTRITION FACTS
-calories: 156 + 66
-protein: 12,8 + 12
-total-carbs: 0,7 + 
-sugars: 0,7
-total-fat: 11,3
-saturated-fat: 
-fiber: 0
-
 # IMAGES
 img: quark-apple
 img-preview: quark-apple-03

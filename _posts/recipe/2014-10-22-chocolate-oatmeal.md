@@ -10,14 +10,6 @@ servings: 1
 tags: [dairy-free, meatless monday, refined sugar-free]
 amount: meal
 
-calories: 
-protein: 
-total-carbs: 
-sugars: 
-total-fat:
-saturated-fat: 
-fiber: 
-
 img: oatmeal
 img-preview: oatmeal-02
 img-count: 2

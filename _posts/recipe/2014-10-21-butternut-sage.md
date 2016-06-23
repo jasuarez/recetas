@@ -10,15 +10,6 @@ servings: 1
 tags: [gluten-free, dairy-free, meatless monday]
 amount: meal
 
-# NUTRITION FACTS
-calories: 
-protein: 
-total-carbs: 
-sugars: 
-total-fat:
-saturated-fat: 
-fiber: 
-
 # IMAGES
 img: butter-sage
 img-preview: butter-sage-01

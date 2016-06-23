@@ -10,24 +10,6 @@ servings: 1
 tags: [gluten-free, meatless monday]
 amount: snack
 
-
-# NUTRITION FACTS
-calories-excl: 
-protein-excl: 
-total-carbs-excl: 
-sugars-excl: 
-total-fat-excl:
-saturated-fat-excl: 
-fiber-excl: 
-
-calories-incl: 
-protein-incl: 
-total-carbs-incl: 
-sugars-incl: 
-total-fat-incl:
-saturated-fat-incl: 
-fiber-incl: 
-
 # IMAGES
 img: tomatoe-mozza
 img-preview: tomatoe-mozza-02
