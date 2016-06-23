@@ -37,7 +37,7 @@ Instrucciones:
     5. (finished): 
         - Sprinkle according to taste some cheese over it, salt if necessary - Bon appetit!
 
-note: If you want more protein, add some boiled or fried eggs.
+Notas: If you want more protein, add some boiled or fried eggs.
 ---
 <!--more-->
 

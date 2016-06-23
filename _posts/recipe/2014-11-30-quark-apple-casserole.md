@@ -33,7 +33,7 @@ Instrucciones:
     4. (finished): 
         - Bon appetit!
   
-note: For more sweatness add a spoonful of honey, alternatively add more apples or a banana.
+Notas: For more sweatness add a spoonful of honey, alternatively add more apples or a banana.
 
 ---
 <!--more-->

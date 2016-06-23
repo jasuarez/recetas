@@ -34,7 +34,7 @@ Instrucciones:
     3. (finished): 
         - Bon appetit!
   
-note: If you like to avoid the garlic, use onions, spring onions or wild garlic instead. 
+Notas: If you like to avoid the garlic, use onions, spring onions or wild garlic instead. 
 
 ---
 <!--more-->
