@@ -6,7 +6,6 @@ categories: recipe
 title: Tomato mozzarella salad
 duration: 3 minutes
 vessel: a deep dish
-heat: []
 servings: 1
 tags: [gluten-free, meatless monday]
 amount: snack

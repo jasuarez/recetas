@@ -6,7 +6,6 @@ title: Chocolate oatmeal
 
 duration: 2 minutes
 vessel: 1 deep dish
-heat: tap or water heater
 servings: 1
 tags: [dairy-free, meatless monday, refined sugar-free]
 amount: meal

@@ -6,7 +6,6 @@ categories: recipe
 title: Quark apple casserole
 duration: 1 hour
 vessel: casserole dish
-heat: oven
 servings: 4
 tags: [gluten-free, meatless monday, refined sugar-free]
 amount: snack
