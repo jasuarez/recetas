@@ -7,7 +7,7 @@ title: Curry lentil soup with peanut butter
 
 duration: 20 minutes
 vessel: pot
-servings: 2
+comensales: 2
 tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
 
 img: curry-lentil

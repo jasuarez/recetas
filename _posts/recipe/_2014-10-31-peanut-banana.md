@@ -6,7 +6,7 @@ title: Banana with peanut butter
 
 duration: 1 minute
 vessel: plate
-servings: 1
+comensales: 1
 tags: [gluten-free, dairy-free, meatless monday, snack]
 
 calories: 

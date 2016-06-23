@@ -6,7 +6,7 @@ title: Chocolate oatmeal
 
 duration: 2 minutes
 vessel: 1 deep dish
-servings: 1
+comensales: 1
 tags: [dairy-free, meatless monday, refined sugar-free]
 
 img: oatmeal
