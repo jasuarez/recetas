@@ -13,16 +13,13 @@ img-preview: tomatoe-mozza-02
 
 # RECIPE
 Ingredientes:
-    Main:
-        - 300g tomatoes
-        - 1 mozzarella ball
-    Dressing:
-        - olive oil
-        - vinegar
-        - a pinch of sea salt
-    Optional:
-        - some cloves of garlic
-        - leafs of basil
+    - 300g tomatoes
+    - 1 mozzarella ball
+    - olive oil
+    - vinegar
+    - a pinch of sea salt
+    - some cloves of garlic
+    - leafs of basil
         
 Instrucciones:
     1. (02 min): 

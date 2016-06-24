@@ -46,15 +46,23 @@
     <div class="row main">
         <br>
         <div class=" medium-6 columns">
-            <h3>Ingredientes</h3>     
-            {% for part in page.Ingredientes %}         
-                <div class="sublist-italic">{{ part[0] }}</div>
+            <h3>Ingredientes</h3>
+            {% if page.Ingredientes[0] %}
                 <ul>
-                {% for ingredient in part[1] %}
+                {% for ingredient in page.Ingredientes %}
                     <li itemprop="ingredients">{{ ingredient }}</li>
                 {% endfor %}
                 </ul>
-            {% endfor %}
+            {% else %}
+              {% for part in page.Ingredientes %}         
+                  <div class="sublist-italic">{{ part[0] }}</div>
+                  <ul>
+                  {% for ingredient in part[1] %}
+                      <li itemprop="ingredients">{{ ingredient }}</li>
+                  {% endfor %}
+                  </ul>
+              {% endfor %}
+            {% endif %}
         </div>
         <div class="medium-6 columns">   
            <h3>Instrucciones</h3>
