@@ -19,10 +19,10 @@ Ingredientes:
         - 2 tbsp of ground almonds
   
 Pasos:
-    - 1. Mash the banana in the deep dish. And blah blah blah, but more blah
-      blha except by you.
-    - 2. Add the remaining ingredients.
-    - 3. Pour over some hot Water - Bon appetit!
+    - Mash the banana in the deep dish. And blah blah blah, but more blah blha
+      except by you.
+    - Add the remaining ingredients.
+    - Pour over some hot Water - Bon appetit!
 
 Notas: This is a basic recipe example for an everyday breakfast oatmeal. The banana provides a naturally slight sweetness and the almonds valuable fats and proteins. The cocoa supplements with intense flavor and superfood character. Try using grated coconut instead of ground almonds or cinnamon instead of cocoa powder.
 
