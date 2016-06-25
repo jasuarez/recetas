@@ -18,7 +18,14 @@
                 <div class="row">
                     <div class="medium-6 columns">
                         <ul>
+                          {% if page.tiempo %}
+                            <li><div class="sublist-italic">Duración</div><h5><meta itemprop="totalTime" content="PT5M">{{ page.tiempo }}</h5></li>
+                          {% endif %}
                             <li itemprop="recipeYield"><span ><div class="sublist-italic">Comensales</div><h5> {{ page.comensales }}</h5></span></li>
+                        </ul>
+                    </div>
+                    <div class="medium-6 columns">
+                        <ul>
                             <li><div class="sublist-italic">Etiquetado como</div><h5 itemprop="description">{{ page.tags | join: ', ' }}</h5></li>
                         </ul>
                     </div>

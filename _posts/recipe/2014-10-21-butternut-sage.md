@@ -4,6 +4,7 @@ categories: recipe
 
 # TOP DETAILS
 title: Butternut squash and sage butter
+tiempo: 20 minutos
 comensales: 1
 tags: [gluten-free, dairy-free, meatless monday]
 
