@@ -65,12 +65,12 @@
             {% endif %}
         </div>
         <div class="medium-6 columns">   
-           <h3>Instrucciones</h3>
-            {% for part in page.Instrucciones %}
+           <h3>Pasos</h3>
+            {% for part in page.Pasos %}
                 <div class="sublist-italic">{{ part[0] }}</div>
                 <ul>
-                {% for instruction in part[1] %}
-                    <li itemprop="recipeInstructions">{{ instruction }}</li>
+                {% for step in part[1] %}
+                    <li itemprop="recipeInstructions">{{ step }}</li>
                 {% endfor %}
                 </ul>
             {% endfor %}         

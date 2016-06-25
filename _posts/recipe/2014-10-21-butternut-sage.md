@@ -23,7 +23,7 @@ Ingredientes:
         - A few cloves of garlic
         - Some cheese such as parmesan or pecorino or feta cheese 
   
-Instrucciones:
+Pasos:
     1. (03 min): 
         - Cut the butternut squash into bite-sized pieces.
     2. (07 min): 

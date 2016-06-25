@@ -21,7 +21,7 @@ Ingredientes:
     Optional:
         - Ground vanilla beans
         
-Instrucciones:
+Pasos:
     1. (04 min): 
         - Cut the apples into bitesized peaces and put them into the casserole dish.
     2. (01 min): 

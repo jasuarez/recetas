@@ -27,7 +27,7 @@ Ingredientes:
         - Feta cheese
         
   
-Instrucciones:
+Pasos:
     1. (03 min): 
         - Cut the carrots, optional garlic and onions into bite-sized pieces and stew them in the pot using preferably Coconut oil, olive oil is good as well.
     2. (01 min): 
