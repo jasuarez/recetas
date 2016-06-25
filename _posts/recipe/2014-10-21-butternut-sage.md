@@ -9,7 +9,6 @@ tags: [gluten-free, dairy-free, meatless monday]
 
 # IMAGES
 img: butter-sage
-img-preview: butter-sage-01
   
 # RECIPE  
 Ingredientes:

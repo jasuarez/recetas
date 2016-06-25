@@ -8,7 +8,6 @@ comensales: 1
 tags: [dairy-free, meatless monday, refined sugar-free]
 
 img: oatmeal
-img-preview: oatmeal-02
 
 Ingredientes:
     Main:

@@ -9,7 +9,6 @@ tags: [gluten-free, meatless monday]
 
 # IMAGES
 img: tomatoe-mozza
-img-preview: tomatoe-mozza-02
 
 # RECIPE
 Ingredientes:

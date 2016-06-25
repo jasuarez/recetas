@@ -9,7 +9,6 @@ tags: [gluten-free, meatless monday, refined sugar-free]
 
 # IMAGES
 img: quark-apple
-img-preview: quark-apple-03
 
 # RECIPE
 Ingredientes:

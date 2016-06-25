@@ -9,7 +9,6 @@ comensales: 2
 tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
 
 img: curry-lentil
-img-preview: curry-lentil-02
 
 Ingredientes:
     Main:
