@@ -22,12 +22,10 @@ Ingredientes:
     - leafs of basil
         
 Pasos:
-    1. (02 min): 
-        - Half the tomatoes, pluck the mozzarella and the basil and put the ingredients into a bowl or a deep dish.
-    2. (01 min): 
-        - Pour some olive oil and vinegar and sprinkle a pinch of salt over it.
-    3. (finished): 
-        - Bon appetit!
+    - 1. Half the tomatoes, pluck the mozzarella and the basil and put the
+      ingredients into a bowl or a deep dish.
+    - 2. Pour some olive oil and vinegar and sprinkle a pinch of salt over it.
+    - 3. Bon appetit!
   
 Notas: If you like to avoid the garlic, use onions, spring onions or wild garlic instead. 
 

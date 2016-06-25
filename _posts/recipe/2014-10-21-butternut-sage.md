@@ -24,16 +24,14 @@ Ingredientes:
         - Some cheese such as parmesan or pecorino or feta cheese 
   
 Pasos:
-    1. (03 min): 
-        - Cut the butternut squash into bite-sized pieces.
-    2. (07 min): 
-        - Fry them until golden brown in a frying pan on a high heat, enriched with a small piece of butter.
-    3. (04 min): 
-        - Deglaze with a splash of white wine and reduce the heat.
-    4. (01 min): 
-        - Chop the garlic and the sage and add it.
-    5. (finished): 
-        - Sprinkle according to taste some cheese over it, salt if necessary - Bon appetit!
+    - 1. Cut the butternut squash into bite-sized pieces.
+    - 2. Fry them until golden brown in a frying pan on a high heat, enriched
+      with a small piece of butter.
+    - 3. Deglaze with a splash of white wine and reduce the heat.
+    - 4. Chop the garlic and the sage and add it.
+    - 5. Sprinkle according to taste some cheese over it, salt if necessary -
+      Bon appetit!
+    - 6. Pray to me!
 
 Notas: If you want more protein, add some boiled or fried eggs.
 ---

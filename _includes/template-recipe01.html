@@ -65,15 +65,14 @@
             {% endif %}
         </div>
         <div class="medium-6 columns">   
-           <h3>Pasos</h3>
-            {% for part in page.Pasos %}
-                <div class="sublist-italic">{{ part[0] }}</div>
-                <ul>
-                {% for step in part[1] %}
-                    <li itemprop="recipeInstructions">{{ step }}</li>
-                {% endfor %}
-                </ul>
-            {% endfor %}         
+          <h3>Pasos</h3>
+          <div class="sublist-italic" align="left">
+            <ol>
+              {% for step in page.Pasos %}
+                <li itemprop="recipeInstructions">{{ step }}</li>
+              {% endfor %}
+            </ol>
+          </div>
         </div>
     </div>
     
