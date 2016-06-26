@@ -68,9 +68,7 @@ img-size:
                     <h2>{{ currentyear }}</h2>                             
                     {% capture year %}{{currentyear}}{% endcapture %} 
                 {% endif %} 
-                {% if post.categories contains 'recipe' %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>          
-                {% endif %}
+                   <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>          
             {% endfor %}
             </ul>                                                                     
         </div>     

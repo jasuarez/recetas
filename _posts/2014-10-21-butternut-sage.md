@@ -34,7 +34,4 @@ Pasos:
 
 Notas: If you want more protein, add some boiled or fried eggs.
 ---
-<!--more-->
-
-{% include template-recipe01.html %}
 

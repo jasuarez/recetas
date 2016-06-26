@@ -29,7 +29,4 @@ Pasos:
 Notas: For more sweatness add a spoonful of honey, alternatively add more apples or a banana.
 
 ---
-<!--more-->
-
-{% include template-recipe01.html %}
 

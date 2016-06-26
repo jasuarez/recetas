@@ -26,7 +26,3 @@ Pasos:
 Notas: This is a basic recipe example for an everyday breakfast oatmeal. The banana provides a naturally slight sweetness and the almonds valuable fats and proteins. The cocoa supplements with intense flavor and superfood character. Try using grated coconut instead of ground almonds or cinnamon instead of cocoa powder.
 
 ---
-<!--more-->
-
-{% include template-recipe01.html %}
-

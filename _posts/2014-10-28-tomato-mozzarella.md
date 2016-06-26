@@ -28,7 +28,4 @@ Pasos:
 Notas: If you like to avoid the garlic, use onions, spring onions or wild garlic instead. 
 
 ---
-<!--more-->
-
-{% include template-recipe01.html %}
 
