@@ -33,6 +33,7 @@ img-size:
                     <dl class="tabs" data-tab>
                         <dd class="medium-4 columns active"><a href="#panel-tag"><span class="italic">BY</span> TAG</a></dd>
                         <dd class="medium-4 columns"><a href="#panel-date"><span class="italic">BY</span> DATE</a></dd>
+                        <dd class="medium-4 columns"><a href="#panel-menu"><span class="italic">BY</span> MENU</a></dd>
                     </dl>
                 </div> 
             </div>   
@@ -72,5 +73,19 @@ img-size:
             {% endfor %}
             </ul>                                                                     
         </div>     
+        <div class="content" id="panel-menu">     
+            <!-- RECIPES ORDERED BY MENU -->
+            <ul class="main">
+            {% for menu in site.data.menu %}
+                <h2>{{ menu }}s</h2>
+            {% assign menu-site = menu %}
+                <ul>
+                {% for post in site.posts %}
+                    {% if post.menu == menu-site %}
+                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                {% endfor %} 
+                </ul>
+            {% endfor %}
+        </div>     
     </div>
-

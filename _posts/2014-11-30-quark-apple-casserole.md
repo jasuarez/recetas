@@ -4,6 +4,7 @@ layout: receta
 # TOP DETAILS
 title: Quark apple casserole
 comensales: 4
+menu: postre
 tags: [gluten-free, meatless monday, refined sugar-free]
 
 # IMAGES

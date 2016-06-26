@@ -4,6 +4,7 @@ layout: receta
 title: Chocolate oatmeal
 
 comensales: 1
+menu: postre
 tags: [dairy-free, meatless monday, refined sugar-free]
 
 img: oatmeal

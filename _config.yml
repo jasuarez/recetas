@@ -8,6 +8,7 @@ url: "http://platofrugal.com"
 image: apple-touch-icon-180x180.png
 # Build settings
 markdown: kramdown
+category: recetas
 
 permalink: none
 sass:

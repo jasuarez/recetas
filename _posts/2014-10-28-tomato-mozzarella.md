@@ -4,6 +4,7 @@ layout: receta
 # TOP DETAILS
 title: Tomato mozzarella salad
 comensales: 1
+menu: postre
 tags: [gluten-free, meatless monday]
 
 # IMAGES

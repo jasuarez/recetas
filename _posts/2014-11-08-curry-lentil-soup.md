@@ -4,6 +4,7 @@ layout: receta
 title: Curry lentil soup with peanut butter
 
 comensales: 2
+menu: segundo
 tags: [dairy-free, gluten-free, meatless monday, refined sugar-free]
 
 img: curry-lentil
