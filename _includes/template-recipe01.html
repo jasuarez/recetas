@@ -22,7 +22,9 @@
                           {% if page.tiempo %}
                             <li itemprop="recipeYield"><span ><div class="sublist-italic">Duración</div><h5><meta itemprop="totalTime" content="PT5M">{{ page.tiempo }}</meta></h5></span></li>
                           {% endif %}
+                          {% if page.comensales %}
                            <li itemprop="recipeYield"><span ><div class="sublist-italic">Comensales</div><h5> {{ page.comensales }}</h5></span></li>
+                          {% endif %}
                         </ul>
                     </div>
                     <div class="medium-6 columns">
