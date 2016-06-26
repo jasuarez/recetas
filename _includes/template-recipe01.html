@@ -86,13 +86,17 @@
         </div>
     </div>
     
+    {% if page.Notas %}
     <div class="row main">
         <div class="small-12 columns">
             <h3>Notas</h3>
             <p>{{ page.Notas }}</p>
         </div>
     </div>
-
+    {% else %}
+    <br/><br/>
+    {% endif %}
+    
     <div class="row main">
         <div class="small-12 columns">
              <a name="anker-impressions"></a>
