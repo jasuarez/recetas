@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: receta
 
 # TOP DETAILS
 title: Quark apple casserole

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: receta
 
 title: Curry lentil soup with peanut butter
 
