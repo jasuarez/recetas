@@ -9,7 +9,7 @@ image: apple-touch-icon-180x180.png
 # Build settings
 markdown: kramdown
 
-permalink: pretty
+permalink: none
 sass:
     sass_dir: bower_components/foundation/scss
     style: compressed

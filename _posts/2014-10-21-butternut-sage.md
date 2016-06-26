@@ -1,6 +1,5 @@
 ---
 layout: default
-categories: recipe
 
 # TOP DETAILS
 title: Butternut squash and sage butter

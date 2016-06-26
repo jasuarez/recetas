@@ -1,7 +1,5 @@
 ---
 layout: default
-categories: recipe
-category: recipe
 
 title: Curry lentil soup with peanut butter
 
