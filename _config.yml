@@ -1,0 +1,27 @@
+# Site settings
+title: Plato Frugal
+email: platofrugal@gmail.com
+author: "Cedric Quintes"
+description: Food blog for modest and clean recipes.
+baseurl: "" 
+url: "http://platofrugal.com"
+twitter: platofrugal
+github:  platofrugal
+facebook: platofrugal
+
+image: apple-touch-icon-180x180.png
+# Build settings
+markdown: kramdown
+
+permalink: pretty
+sass:
+    sass_dir: bower_components/foundation/scss
+    style: compressed
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - bower.json
+    - node_modules/*
+

@@ -1,0 +1,114 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--
+  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/bower_components/font-awesome/css/font-awesome.min.css"/>
+  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/bower_components/owlcarousel/owl-carousel/owl.theme.css"/>  
+  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/bower_components/owlcarousel/owl-carousel/owl.carousel.css"/>
+  -->
+  <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"/>
+  <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.min.css"/>
+  <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.theme.min.css"/>  
+  <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
+  
+  <!-- WEBFONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Neuton:400,400italic,300|Montserrat:400,700|Satisfy' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  
+  <!--   
+  <script type="application/javascript" src="{{ site.baseurl }}/bower_components/modernizr/modernizr.js"></script>
+  -->
+  <script type="application/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- polyfill responsive images: https://github.com/aFarkas/respimage -->
+    <script src="{{ site.baseurl }}/bower_components/respimage/respimage.min.js" async=""></script>
+    
+    <script>
+        document.createElement('picture');
+    </script>
+    
+    <script>
+
+        window.lazySizesConfig = {
+            // uncomment next line to preload after onload (often recommended)
+            preloadAfterLoad: true
+            //clearAttr: true
+        };
+    </script>
+    <script type="application/javascript" src="{{ site.baseurl }}/bower_components/lazysizes/lazysizes.js"></script>
+    
+    
+  <title>   
+    {% if page.title %}
+        {% if page.title != 'blog' %}
+            {{ page.title }} - {{ site.title }}
+        {% else %}
+            {{ site.title }} - {{ site.description }} 
+        {% endif %}
+    {% endif %}
+  </title>
+  <meta name="description" content="{% if site.description %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+<!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+     <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/mstile-144x144.png">
+    <!-- FB NAMESPACE DEFINITION -->
+    <html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+
+    <meta http-equiv="cleartype" content="on">
+    
+    <!-- FB OPEN GRAPH -->
+    <meta content="{{ site.title }}" property="og:site_name">
+    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
+    <meta content="{% if page.category %}{{ page.category }}{% else %}website{% endif %}" property="og:type">
+    <meta content="{% if page.tags %}tagged as: {{ page.tags | join: ', ' }}{% else %}{{ site.description }}{% endif %}" property="og:description">
+    {% if page.url %}<meta content="{{ site.url }}{{ page.url }}" property="og:url">{% endif %}
+    {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="{{ page.category }}:published_time">
+    <meta content="{{ site.url }}/about/" property="{{ page.category }}:author">
+    {% endif %}
+    {% if page.img-preview %}
+    <meta content="{{ site.url }}/img/{{ page.img-preview }}-970w.jpg" property="og:image">
+    {% else %}
+    <meta content="{{ site.url }}/{{ site.image }}" property="og:image">
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="{{ page.category }}:tag">
+      {% endfor %}
+    {% endif %}
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.tags %}tagged as: {{ page.tags | join: ', ' }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.img-preview %}
+    <meta name="twitter:image" content="{{ site.url }}/img/{{ page.img-preview }}-970w.jpg">
+    {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/{{ site.image }}">
+    {% endif %}
+
+</head>

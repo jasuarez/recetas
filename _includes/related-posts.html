@@ -1,0 +1,57 @@
+{% if page.img %}
+    <div class="wrap-bottom" 
+        type="image/jpg" 
+        data-interchange="[{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-480w.jpg, (only screen and (min-width: 1px))],
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-768w.jpg, (only screen and (min-width: 481px))],
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1024w.jpg, (only screen and (min-width: 769px))],
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1440w.jpg, (only screen and (min-width: 1025px))],
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1600w.jpg, (only screen and (min-width: 1441px))],
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1920w.jpg, (only screen and (min-width: 1601px))]">
+        
+        <div class="footer-posts" role="contentinfo">
+            <div class="large-12 columns">
+                {% if page.categories != empty %}
+                    <h2>RECOMMENDED {{ page.categories }}S</h2>
+                {% endif %}        
+                <div class="owl-carousel owl-related-posts">
+                    {% for post in site.posts %}
+                        {% if post.title != page.title %}
+                            {% assign sameTagCount = 0 %}
+                            {% assign commonTags = '' %}
+                            {% for tag in post.tags %}
+                                {% if page.tags contains tag %}
+                                    {% assign sameTagCount = sameTagCount | plus: 1 %}
+                                    {% capture tagmarkup %} <span class="label-inverse">{{ tag }}</span> {% endcapture %}
+                                    {% assign commonTags = commonTags | append: tagmarkup %}
+                                {% endif %}
+                            {% endfor %}
+                            {% if sameTagCount >= 2 %}
+                                <div>   
+                                    <a href="{{ site.baseurl }}{{ post.url }}">
+                                        <img data-sizes="auto"
+                                            class="lazyload related-post-preview" 
+                                            src="{{site.baseurl}}/img/{{post.img}}/{{post.img-preview}}-240w.jpg"
+                                            data-srcset="{{site.baseurl}}/img/{{post.img}}/{{post.img-preview}}-240w.jpg 240w,
+                                            {{site.baseurl}}/img/{{post.img}}/{{post.img-preview}}-320w.jpg 320w,
+                                            {{site.baseurl}}/img/{{post.img}}/{{post.img-preview}}-500w.jpg 500w"
+                                            alt="{{ post.title }}" />
+                                        <h5>{{ post.title }}</h5>
+                                    </a>
+                                    <!-- DISPLAY TAGS 
+                                    {% for entry in site.data.nav-recipe-archive %}
+                                        {% if entry.title == 'by tag' %}              
+                                            <a href="{{ site.url }}{{ entry.href }}">
+                                                {{ commonTags }}
+                                            </a>
+                                        {% endif %}                      
+                                    {% endfor %}
+                                    -->
+                                </div>              
+                            {% endif %}
+                        {% endif %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>     
+    </div>
+{% endif %}
