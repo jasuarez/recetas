@@ -6,8 +6,8 @@ require 'update/version'
 Gem::Specification.new do |spec|
   spec.name          = "update"
   spec.version       = Update::VERSION
-  spec.authors       = ["plato frugal"]
-  spec.email         = ["platofrugal@gmail.com"]
+  spec.authors       = ["Juan A. Suárez"]
+  spec.email         = ["centurion3001@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""

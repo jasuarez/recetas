@@ -1,9 +1,9 @@
 # Site settings
-title: Plato Frugal
-author: "Cedric Quintes"
-description: Food blog for modest and clean recipes.
+title: Cenando a las Nueve
+author: "Juan A. Suárez"
+description: Un sitio donde guardo recetas.
 baseurl: "" 
-url: "http://platofrugal.com"
+url: "http://cenandoalasnueve.terralan.org"
 
 image: assets/ico/apple-touch-icon-180x180.png
 # Build settings
