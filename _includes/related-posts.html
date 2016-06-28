@@ -1,12 +1,9 @@
 {% if page.img %}
     <div class="wrap-bottom" 
         type="image/jpg" 
-        data-interchange="[{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-480w.jpg, (only screen and (min-width: 1px))],
-        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-768w.jpg, (only screen and (min-width: 481px))],
-        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1024w.jpg, (only screen and (min-width: 769px))],
+        data-interchange="[{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1024w.jpg, (only screen and (min-width: 1px))],
         [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1440w.jpg, (only screen and (min-width: 1025px))],
-        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1600w.jpg, (only screen and (min-width: 1441px))],
-        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1920w.jpg, (only screen and (min-width: 1601px))]">
+        [{{site.baseurl}}/img/{{page.img}}/{{page.img}}-back-1920w.jpg, (only screen and (min-width: 1441px))]">
         
         <div class="footer-posts" role="contentinfo">
             <div class="large-12 columns">
@@ -30,10 +27,10 @@
                                     <a href="{{ site.baseurl }}{{ post.url }}">
                                         <img data-sizes="auto"
                                             class="lazyload related-post-preview" 
-                                            src="{{site.baseurl}}/img/{{post.img}}/{{post.img}}-240w.jpg"
-                                            data-srcset="{{site.baseurl}}/img/{{post.img}}/{{post.img}}-240w.jpg 240w,
-                                            {{site.baseurl}}/img/{{post.img}}/{{post.img}}-320w.jpg 320w,
-                                            {{site.baseurl}}/img/{{post.img}}/{{post.img}}-500w.jpg 500w"
+                                            src="{{site.baseurl}}/img/{{post.img}}/{{post.img}}-500w.jpg"
+                                            data-srcset="{{site.baseurl}}/img/{{post.img}}/{{post.img}}-500w.jpg 500w,
+                                            {{site.baseurl}}/img/{{page.img}}/{{page.img}}-640w.jpg 640w,
+                                            {{site.baseurl}}/img/{{page.img}}/{{page.img}}-970w.jpg 970w"
                                             alt="{{ post.title }}" />
                                         <h5>{{ post.title }}</h5>
                                     </a>
