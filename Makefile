@@ -1,48 +1,35 @@
-PELICAN=pelican
-PELICANOPTS=
+JEKYLL=jekyll
+JEKYLLOPTS=
 
-BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/Recetas
-OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+OUTPUTDIR=$(CURDIR)/_site
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make html                        (re)generate the web site          '
+	@echo '   make build                       (re)generate the web site          '
+	@echo '   make check                       check everything is correct        '
 	@echo '   make clean                       remove the generated files         '
-	@echo '   make regenerate                  regenerate files upon modification '
-	@echo '   make publish                     generate using production settings '
-	@echo '   make serve                       serve site at http://localhost:8000'
-	@echo '   github                           upload the web site via gh-pages   '
+	@echo '   make publish                     upload the web site via gh-pages   '
+	@echo '   make serve                       serve site at http://localhost:4000'
 	@echo '                                                                       '
 
 
-html: clean $(OUTPUTDIR)/index.html
+build: clean
+	$(JEKYLL) $(JEKYLLOPTS) build
 	@echo 'Done'
 
-$(OUTPUTDIR)/%.html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+check:
+	$(JEKYLL) $(JEKYLLOPTS) doctor
 
 clean:
-	mkdir -p $(OUTPUTDIR)
-	find $(OUTPUTDIR) -mindepth 1 -delete
-
-regenerate: clean
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(JEKYLL) $(JEKYLLOPTS) clean
 
 serve:
-	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
+	$(JEKYLL) $(JEKYLLOPTS) serve
 
-publish:
-	mkdir -p $(OUTPUTDIR)
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	cp CNAME $(OUTPUTDIR)
-
-github: publish
+publish: build
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean regenerate serve devserver publish github
+.PHONY: help build check clean serve publish
