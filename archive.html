@@ -60,7 +60,10 @@ img-size:
             <!-- RECIPES ORDERED BY DATE -->
             <ul class="main">
             {% for post in site.posts %}
-                {% capture currentyear %}{{post.date | date: "%B %Y"}}{% endcapture %}
+                {% capture currentyear %}
+                {% assign m = post.date | date: "%-m" | minus: 1 %}
+                {{ site.data.months[m] }} {{post.date | date: "%Y"}}
+                {% endcapture %}
                 {% if currentyear != year %}
                     {% unless forloop.first %}{% endunless %}
                     <h2>{{ currentyear }}</h2>                             
