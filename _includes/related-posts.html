@@ -7,9 +7,7 @@
         
         <div class="footer-posts" role="contentinfo">
             <div class="large-12 columns">
-                {% if page.categories != empty %}
-                    <h2>RECOMMENDED {{ page.categories }}S</h2>
-                {% endif %}        
+                <h2>RECETAS RECOMENDADAS</h2>
                 <div class="owl-carousel owl-related-posts">
                     {% for post in site.posts %}
                         {% if post.title != page.title %}
@@ -22,7 +20,7 @@
                                     {% assign commonTags = commonTags | append: tagmarkup %}
                                 {% endif %}
                             {% endfor %}
-                            {% if sameTagCount >= 2 %}
+                            {% if sameTagCount >= 1 %}
                                 <div>   
                                     <a href="{{ site.baseurl }}{{ post.url }}">
                                         <img data-sizes="auto"
