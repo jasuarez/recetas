@@ -1,0 +1,26 @@
+# Site settings
+title: Cenando a las Nueve
+author: "Juan A. Suárez"
+description: Un lugar donde tener mis recetas
+baseurl: "" 
+url: "http://cenandoalasnueve.terralan.org"
+
+image: assets/ico/apple-touch-icon-180x180.png
+# Build settings
+markdown: kramdown
+category: recetas
+
+permalink: none
+sass:
+    sass_dir: bower_components/foundation/scss
+    style: compressed
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - bower.json
+    - node_modules/*
+
+gems: [jekyll-paginate]
+paginate: 10

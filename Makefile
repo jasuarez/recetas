@@ -1,48 +1,84 @@
-PELICAN=pelican
-PELICANOPTS=
+JEKYLL=jekyll
+JEKYLLOPTS=
 
-BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/Recetas
-OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+OUTPUTDIR=$(CURDIR)/_site
+
+SRCIMGDIR=$(CURDIR)/_img
+DSTIMGDIR=$(CURDIR)/img
+
+SRCIMGS := $(wildcard $(SRCIMGDIR)/*.jpg)
+DSTIMG500S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-500w.jpg)
+DSTIMG640S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-640w.jpg)
+DSTIMG970S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-970w.jpg)
+DSTIMGBACK1024S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1024w.jpg)
+DSTIMGBACK1440S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1440w.jpg)
+DSTIMGBACK1920S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1920w.jpg)
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
-	@echo '   make html                        (re)generate the web site          '
+	@echo '   make build                       (re)generate the web site          '
+	@echo '   make check                       check everything is correct        '
 	@echo '   make clean                       remove the generated files         '
-	@echo '   make regenerate                  regenerate files upon modification '
-	@echo '   make publish                     generate using production settings '
-	@echo '   make serve                       serve site at http://localhost:8000'
-	@echo '   github                           upload the web site via gh-pages   '
+	@echo '   make publish                     upload the web site via gh-pages   '
+	@echo '   make serve                       serve site at http://localhost:4000'
 	@echo '                                                                       '
 
+$(DSTIMG500S): $(DSTIMGDIR)/%-500w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -resize 500 $@
 
-html: clean $(OUTPUTDIR)/index.html
+$(DSTIMG640S): $(DSTIMGDIR)/%-640w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -resize 640 $@
+
+$(DSTIMG970S): $(DSTIMGDIR)/%-970w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -resize 970 $@
+
+$(DSTIMGBACK1024S): $(DSTIMGDIR)/%-back-1024w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+		-resize 1024x341\^ -extent 1024x341 -gravity South	\
+		-crop 1024x341+0+0 -grayscale rec601luma +level 10%,35%  $@
+
+$(DSTIMGBACK1440S): $(DSTIMGDIR)/%-back-1440w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+		-resize 1440x480\^ -extent 1440x480 -gravity South	\
+		-crop 1440x480+0+0 -grayscale rec601luma +level 10%,35%  $@
+
+$(DSTIMGBACK1920S): $(DSTIMGDIR)/%-back-1920w.jpg : $(SRCIMGDIR)/%.jpg
+	@echo "Creating $@"
+	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+		-resize 1920x640\^ -extent 1920x640 -gravity South	\
+		-crop 1920x640+0+0 -grayscale rec601luma +level 10%,35%  $@
+
+imgfront: $(DSTIMG500S) $(DSTIMG640S) $(DSTIMG970S)
+
+imgback: $(DSTIMGBACK1024S) $(DSTIMGBACK1440S) $(DSTIMGBACK1920S)
+
+img:
+	mkdir img
+
+images: img imgfront imgback
+
+build: clean images
+	$(JEKYLL) $(JEKYLLOPTS) build
 	@echo 'Done'
 
-$(OUTPUTDIR)/%.html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+check:
+	$(JEKYLL) $(JEKYLLOPTS) doctor
 
 clean:
-	mkdir -p $(OUTPUTDIR)
-	find $(OUTPUTDIR) -mindepth 1 -delete
+	$(JEKYLL) $(JEKYLLOPTS) clean
 
-regenerate: clean
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+serve: images
+	$(JEKYLL) $(JEKYLLOPTS) serve
 
-serve:
-	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
-
-publish:
-	mkdir -p $(OUTPUTDIR)
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	cp CNAME $(OUTPUTDIR)
-
-github: publish
+publish: build
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean regenerate serve devserver publish github
+.PHONY: help build check clean serve publish images imgfront imgback
