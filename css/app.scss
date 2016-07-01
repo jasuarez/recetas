@@ -391,6 +391,33 @@ background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53
     font-weight: normal;
     letter-spacing: 2px;
 }
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+.pager li {
+    display: inline;
+}
+.pager li > a,
+.pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.pager .next > a,
+.pager .next > span {
+    margin-right: 1em;
+    float: right;
+}
+.pager .previous > a,
+.pager .previous > span {
+    margin-left: 1em;
+    float: left;
+}
 .preview, .preview:visited {
     margin: 1rem 0.3rem;
     background: none repeat scroll 0% 0% rgba($body-bg, 1);

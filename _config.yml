@@ -22,3 +22,5 @@ exclude:
     - bower.json
     - node_modules/*
 
+gems: [jekyll-paginate]
+paginate: 10
