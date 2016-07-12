@@ -28,9 +28,9 @@ img-size:
                 <div class="small-12 columns">
                     <!-- ACCORDION AND TAB MENU -->
                     <dl class="tabs" data-tab>
-                        <dd class="medium-4 columns active"><a href="#panel-tag"><span class="italic">POR </span> ETIQUETA</a></dd>
+                        <dd class="medium-4 columns active"><a href="#panel-menu"><span class="italic">POR</span> MENÚ</a></dd>
+                        <dd class="medium-4 columns"><a href="#panel-tag"><span class="italic">POR </span> ETIQUETA</a></dd>
                         <dd class="medium-4 columns"><a href="#panel-date"><span class="italic">POR</span> FECHA</a></dd>
-                        <dd class="medium-4 columns"><a href="#panel-menu"><span class="italic">POR</span> MENÚ</a></dd>
                     </dl>
                 </div> 
             </div>   
@@ -41,7 +41,22 @@ img-size:
 <!-- TAB CONTENT -->
 
     <div class="tabs-content">
-        <div class="content row active" id="panel-tag">
+        <div class="content row active" id="panel-menu">     
+            <!-- RECIPES ORDERED BY MENU -->
+            <ul class="main">
+            {% for menu in site.data.menu %}
+                <h2>{{ menu }}s</h2>
+            {% assign menu-site = menu %}
+                <ul>
+                {% for post in site.posts %}
+                    {% if post.menu == menu-site %}
+                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                {% endfor %} 
+                </ul>
+            {% endfor %}
+        </div>     
+        <div class="content" id="panel-tag">
                 {% for tag in site.tags %}
                 <div class="main">
                 {% assign currentTag = tag | first %}
@@ -72,20 +87,5 @@ img-size:
                    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>          
             {% endfor %}
             </ul>                                                                     
-        </div>     
-        <div class="content" id="panel-menu">     
-            <!-- RECIPES ORDERED BY MENU -->
-            <ul class="main">
-            {% for menu in site.data.menu %}
-                <h2>{{ menu }}s</h2>
-            {% assign menu-site = menu %}
-                <ul>
-                {% for post in site.posts %}
-                    {% if post.menu == menu-site %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                    {% endif %}
-                {% endfor %} 
-                </ul>
-            {% endfor %}
         </div>     
     </div>
