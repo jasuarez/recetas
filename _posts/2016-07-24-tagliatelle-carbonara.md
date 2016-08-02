@@ -13,7 +13,7 @@ Ingredientes:
     - 1 yema de huevo por persona (opcional)
     - 100 gr de bacon
     - 100 gr de jamón serrano
-    - 150 ml deleche
+    - 150 ml de leche
     - 2 cucharadas de queso parmesano rallado
     - 250 gr de chalota
     - 400 ml de nata de 18% mg
