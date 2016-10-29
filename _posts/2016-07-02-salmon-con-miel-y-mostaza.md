@@ -9,9 +9,10 @@ tags: [pescado,salmón]
 img: salmon-con-miel-y-mostaza
 
 Ingredientes:
+    - 1 cucharada de café de piel rallada de limón
     - 2 cucharadas soperas de aceite de oliva virgen
+    - 2 cucharadas soperas de miel
     - 2 cucharadas soperas de mostaza
-    - 2 cucharadas soperas de piel rallada de limón
     - 2 cucharadas soperas de zumo de limón
     - 600 gr de salmón en lomos o rodajas sin piel
     - Eneldo
