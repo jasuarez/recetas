@@ -1,4 +1,4 @@
-JEKYLL=jekyll
+JEKYLL=bundle exec jekyll
 JEKYLLOPTS=
 
 OUTPUTDIR=$(CURDIR)/_site
@@ -18,6 +18,7 @@ help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
 	@echo 'Usage:                                                                 '
+	@echo '   make init                        install Jekyll and dependencies    '
 	@echo '   make build                       (re)generate the web site          '
 	@echo '   make check                       check everything is correct        '
 	@echo '   make clean                       remove the generated files         '
@@ -64,6 +65,9 @@ img:
 
 images: img imgfront imgback
 
+init:
+	bundle install
+
 build: clean images
 	$(JEKYLL) $(JEKYLLOPTS) build
 	@echo 'Done'
@@ -81,4 +85,4 @@ publish: build
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: help build check clean serve publish images imgfront imgback
+.PHONY: help init build check clean serve publish images imgfront imgback
