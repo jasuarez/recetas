@@ -20,7 +20,7 @@ exclude:
     - Gemfile.lock
     - README.md
     - bower.json
-    - node_modules/*
+    - vendor
 
 plugins: [jekyll-paginate]
 paginate: 10
