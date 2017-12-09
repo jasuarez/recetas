@@ -3,7 +3,7 @@ layout: receta
 
 title: Arroz de montaña
 menu: segundo
-comensales: 4 - 6
+comensales: 4-6
 tags: [arroz,carne,pollo,conejo,cerdo,butifarra]
 
 img: arroz-de-montana
