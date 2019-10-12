@@ -2,6 +2,9 @@
 layout: receta
 
 title: Arroz de montaña
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: segundo
 comensales: 4-6
 tags: [arroz,carne,pollo,conejo,cerdo,butifarra]

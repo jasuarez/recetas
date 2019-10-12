@@ -2,6 +2,9 @@
 layout: receta
 
 title: Mejillones con crema de puerros y mostaza
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: primero
 comensales: 4-6
 tags: [mejillón,puerro,mostaza]

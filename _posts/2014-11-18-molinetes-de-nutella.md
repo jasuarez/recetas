@@ -2,6 +2,9 @@
 layout: receta
 
 title: Molinetes de Nutella
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: postre
 comensales: 4
 tags: [chocolate]

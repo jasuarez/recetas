@@ -2,6 +2,9 @@
 layout: receta
 
 title: Flan de café
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: postre
 comensales: 8
 tags: [flan,café]

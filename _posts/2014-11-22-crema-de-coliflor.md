@@ -2,6 +2,9 @@
 layout: receta
 
 title: Crema de coliflor
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: primero
 comensales: 4
 tags: [crema,verdura,coliflor]

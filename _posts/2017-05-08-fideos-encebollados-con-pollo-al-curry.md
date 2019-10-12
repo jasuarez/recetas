@@ -2,6 +2,9 @@
 layout: receta
 
 title: Fideos encebollados con pollo al curry
+fuente:
+    title: Directo al Paladar
+    url: https://www.directoalpaladar.com/recetas-de-carnes-y-aves/fideos-encebollados-con-pollo-al-curry-receta
 menu: segundo
 comensales: 2
 tags: [pasta,pollo,curry,carne]

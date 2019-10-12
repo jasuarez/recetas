@@ -2,6 +2,9 @@
 layout: receta
 
 title: Pan con aceite y chocolate
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: postre
 comensales: 6
 tags: [pan,chocolate]

@@ -2,6 +2,9 @@
 layout: receta
 
 title: Lomos de atún gratinados con mahonesa
+fuente:
+    title: Maria's Recipe Book
+    url: http://mariatesouro.blogspot.com/2011/09/lomos-de-atun-gratinados-con-mahonesa.html
 menu: segundo
 tags: [pescado,atún]
 

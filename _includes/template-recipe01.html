@@ -11,10 +11,13 @@
     {% endif %}
         <div class="row">
             <div class="medium-6 columns">
-                <h2><span itemprop="name">{{ page.title | upcase }}</span></h2>
+              <h2><span itemprop="name">{{ page.title | upcase }}</span></h2>
                 <div class="row">
                     <div class="medium-6 columns">
                         <ul>
+                          {% if page.fuente %}
+                           <li itemprop="recipeYield"><span ><div class="sublist-italic">Fuente</div><h6>{% if page.fuente.url %}<a href="{{ page.fuente.url }}">{% endif %}{{ page.fuente.title }}{% if page.fuente.url %}</a>{% endif %}</h6></span></li>
+                          {% endif %}
                             <li itemprop="recipeYield"><span ><div class="sublist-italic">Menú</div><h5>{{ page.menu | capitalize }}</h5></li>
                           {% if page.tiempo %}
                             <li itemprop="recipeYield"><span ><div class="sublist-italic">Duración</div><h5><meta itemprop="totalTime" content="PT5M">{{ page.tiempo }}</meta></h5></span></li>

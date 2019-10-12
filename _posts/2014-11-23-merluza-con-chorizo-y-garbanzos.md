@@ -2,6 +2,8 @@
 layout: receta
 
 title: Merluza con chorizo y garbanzos
+fuente:
+    title: Cocinar en 15 minutos
 menu: segundo
 comensales: 4
 tags: [pescado,merluza,chorizo,garbanzo,legumbre]

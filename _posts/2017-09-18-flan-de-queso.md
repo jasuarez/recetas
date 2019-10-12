@@ -2,6 +2,9 @@
 layout: receta
 
 title: Flan de queso
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: postre
 tags: [flan,queso]
 

@@ -2,6 +2,9 @@
 layout: receta
 
 title: Conchas de ricotta
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: primero
 comensales: 6
 tags: [queso,pasta]

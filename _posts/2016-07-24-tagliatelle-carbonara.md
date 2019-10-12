@@ -2,6 +2,9 @@
 layout: receta
 
 title: Tagliatelle carbonara
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: segundo
 comensales: 6
 tags: [pasta]

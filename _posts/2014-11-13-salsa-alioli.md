@@ -2,6 +2,9 @@
 layout: receta
 
 title: Salsa alioli
+fuente:
+    title: Su 23.11, Espai de Cuina
+    url: http://espaidecuina.com/escolacuina/
 menu: otro
 tags: [salsa]
 
