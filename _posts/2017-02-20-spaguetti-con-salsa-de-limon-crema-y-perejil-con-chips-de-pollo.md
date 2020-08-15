@@ -4,6 +4,7 @@ layout: receta
 title: Spaghetti con salsa de limón, crema y perejil con chips de pollo
 fuente:
     title: Salsas para pastas
+    url: https://www.todostuslibros.com/libros/salsas-para-pastas_978-987-612-054-8
 menu: segundo
 comensales: 5 - 6
 tags: [pasta,pollo,limón]
