@@ -4,6 +4,7 @@ layout: receta
 title: Chupa chups de pollo
 fuente:
     title: Cocinar en 15 minutos
+    url: https://www.todocoleccion.net/libros-segunda-mano-cocina-gastronomia/pronto-cocinar-15-minutos~x158273526
 menu: segundo
 comensales: 4
 tags: [carne,pollo]
