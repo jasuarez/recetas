@@ -4,7 +4,7 @@ layout: receta
 title: Salmón con miel y mostaza
 fuente:
     title: Su 23.11, Espai de Cuina
-    url: http://espaidecuina.com/escolacuina/
+    url: https://www.espaidecuina.com
 menu: segundo
 comensales: 4
 tags: [pescado,salmón]

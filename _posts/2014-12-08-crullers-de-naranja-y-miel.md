@@ -4,7 +4,7 @@ layout: receta
 title: Crullers de naranja y miel
 fuente:
     title: Su 23.11, Espai de Cuina
-    url: http://espaidecuina.com/escolacuina/
+    url: https://www.espaidecuina.com
 menu: postre
 comensales: 4
 tags: [naranja,miel]

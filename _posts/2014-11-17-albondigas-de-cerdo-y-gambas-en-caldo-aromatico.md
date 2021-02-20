@@ -4,7 +4,7 @@ layout: receta
 title: Albóndigas de cerdo y gambas en caldo aromático
 fuente:
     title: Su 23.11, Espai de Cuina
-    url: http://espaidecuina.com/escolacuina/
+    url: https://www.espaidecuina.com
 menu: segundo
 comensales: 4
 tags: [carne,cerdo,gamba,caldo]

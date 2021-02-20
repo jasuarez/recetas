@@ -4,7 +4,7 @@ layout: receta
 title: Cerezas, fresas y tomate
 fuente:
     title: Su 23.11, Espai de Cuina
-    url: http://espaidecuina.com/escolacuina/
+    url: https://www.espaidecuina.com
 menu: primero
 comensales: 6
 tags: [cereza,fresa,tomate,fruta]

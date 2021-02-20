@@ -4,7 +4,7 @@ layout: receta
 title: Pescado marinado con jenjibre y vinagre de arroz
 fuente:
     title: Su 23.11, Espai de Cuina
-    url: http://espaidecuina.com/escolacuina/
+    url: https://www.espaidecuina.com
 menu: segundo
 comensales: 6
 tags: [pescado,salmón]
