@@ -66,7 +66,8 @@ img:
 images: img imgfront imgback
 
 init:
-	bundle install --path vendor
+	bundle config set path 'vendor'
+	bundle install
 
 build: clean images
 	$(JEKYLL) $(JEKYLLOPTS) build
