@@ -23,4 +23,4 @@ exclude:
     - vendor
 
 plugins: [jekyll-paginate]
-paginate: 10
+paginate: 12
