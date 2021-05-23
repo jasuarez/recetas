@@ -1,4 +1,6 @@
-language: minimal
+language:  shell
+os: linux
+dist: xenial
 
 before_install:
   - sudo apt-get -y install ghp-import
@@ -8,5 +10,10 @@ script:
   - make check
   - make build
 
-after_script:
-  - make publish
+deploy:
+  provider: pages:git
+  local_dir: _site
+  edge: true
+#  on:
+#after_script:
+#  - make publish
