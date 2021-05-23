@@ -6,3 +6,6 @@ before_install:
 script:
   - make check
   - make build
+
+after_install:
+  - make publish
