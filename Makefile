@@ -83,7 +83,6 @@ serve: images
 	$(JEKYLL) $(JEKYLLOPTS) serve
 
 publish: build
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	ghp-import -n -p -f $(OUTPUTDIR)
 
 .PHONY: help init build check clean serve publish images imgfront imgback
