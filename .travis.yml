@@ -7,5 +7,5 @@ script:
   - make check
   - make build
 
-after_install:
+after_script:
   - make publish
