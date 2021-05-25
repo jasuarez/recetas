@@ -3,17 +3,6 @@ JEKYLLOPTS=
 
 OUTPUTDIR=$(CURDIR)/_site
 
-SRCIMGDIR=$(CURDIR)/_img
-DSTIMGDIR=$(CURDIR)/img
-
-SRCIMGS := $(wildcard $(SRCIMGDIR)/*.jpg)
-DSTIMG500S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-500w.jpg)
-DSTIMG640S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-640w.jpg)
-DSTIMG970S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-970w.jpg)
-DSTIMGBACK1024S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1024w.jpg)
-DSTIMGBACK1440S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1440w.jpg)
-DSTIMGBACK1920S := $(SRCIMGS:$(SRCIMGDIR)/%.jpg=$(DSTIMGDIR)/%-back-1920w.jpg)
-
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
@@ -26,44 +15,46 @@ help:
 	@echo '   make serve                       serve site at http://localhost:4000'
 	@echo '                                                                       '
 
-$(DSTIMG500S): $(DSTIMGDIR)/%-500w.jpg : $(SRCIMGDIR)/%.jpg
+img/500: _img
 	@echo "Creating $@"
-	@convert $< -resize 500 $@
+	@mkdir -p $@
+	@mogrify -path $@  -resize 500 $</*.jpg
 
-$(DSTIMG640S): $(DSTIMGDIR)/%-640w.jpg : $(SRCIMGDIR)/%.jpg
+img/640: _img
 	@echo "Creating $@"
-	@convert $< -resize 640 $@
+	@mkdir -p $@
+	@mogrify -path $@  -resize 640 $</*.jpg
 
-$(DSTIMG970S): $(DSTIMGDIR)/%-970w.jpg : $(SRCIMGDIR)/%.jpg
+img/970: _img
 	@echo "Creating $@"
-	@convert $< -resize 970 $@
+	@mkdir -p $@
+	@mogrify -path $@  -resize 970 $</*.jpg
 
-$(DSTIMGBACK1024S): $(DSTIMGDIR)/%-back-1024w.jpg : $(SRCIMGDIR)/%.jpg
+img/back/1024: _img
 	@echo "Creating $@"
-	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+	@mkdir -p $@
+	@mogrify -path $@ -gravity North -crop 85%x45+0+30% +repage	\
 		-resize 1024x341\^ -extent 1024x341 -gravity South	\
-		-crop 1024x341+0+0 -grayscale rec601luma +level 10%,35%  $@
+		-crop 1024x341+0+0 -grayscale rec601luma +level 10%,35%	\
+		$</*.jpg
 
-$(DSTIMGBACK1440S): $(DSTIMGDIR)/%-back-1440w.jpg : $(SRCIMGDIR)/%.jpg
+img/back/1440: _img
 	@echo "Creating $@"
-	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+	@mkdir -p $@
+	@mogrify -path $@ -gravity North -crop 85%x45+0+30% +repage	\
 		-resize 1440x480\^ -extent 1440x480 -gravity South	\
-		-crop 1440x480+0+0 -grayscale rec601luma +level 10%,35%  $@
+		-crop 1440x480+0+0 -grayscale rec601luma +level 10%,35%	\
+		$</*.jpg
 
-$(DSTIMGBACK1920S): $(DSTIMGDIR)/%-back-1920w.jpg : $(SRCIMGDIR)/%.jpg
+img/back/1920: _img
 	@echo "Creating $@"
-	@convert $< -gravity North -crop 85%x45+0+30% +repage		\
+	@mkdir -p $@
+	@mogrify -path $@ -gravity North -crop 85%x45+0+30% +repage	\
 		-resize 1920x640\^ -extent 1920x640 -gravity South	\
-		-crop 1920x640+0+0 -grayscale rec601luma +level 10%,35%  $@
+		-crop 1920x640+0+0 -grayscale rec601luma +level 10%,35%	\
+		$</*.jpg
 
-imgfront: $(DSTIMG500S) $(DSTIMG640S) $(DSTIMG970S)
-
-imgback: $(DSTIMGBACK1024S) $(DSTIMGBACK1440S) $(DSTIMGBACK1920S)
-
-img:
-	mkdir img
-
-images: img imgfront imgback
+images: img/500 img/640 img/970 img/back/1024 img/back/1440 img/back/1920
 
 init:
 	bundle config set path 'vendor'
@@ -85,4 +76,4 @@ serve: images
 publish: build
 	ghp-import -n -p -f $(OUTPUTDIR)
 
-.PHONY: help init build check clean serve publish images imgfront imgback
+.PHONY: help init build check clean serve publish images
