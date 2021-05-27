@@ -1,0 +1,39 @@
+name: Publish webpage
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: mkdir -p img/500
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/500 -resize 500 _img/*.jpg
+      - run: mkdir -p img/640
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/640 -resize 640 _img/*.jpg
+      - run: mkdir -p img/970
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/970 -resize 970 _img/*.jpg
+      - run: mkdir -p img/back/1024
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/back/1024 -gravity North -crop 85%x45+0+30% +repage -resize 1024x341^ -extent 1024x341 -gravity South -crop 1024x341+0+0 -grayscale rec601luma +level 10%,35% _img/*.jpg
+      - run: mkdir -p img/back/1440
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/back/1440 -gravity North -crop 85%x45+0+30% +repage -resize 1440x480^ -extent 1440x480 -gravity South -crop 1440x480+0+0 -grayscale rec601luma +level 10%,35% _img/*.jpg
+      - run: mkdir -p img/back/1920
+      - uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: mogrify -path img/back/1920 -gravity North -crop 85%x45+0+30% +repage -resize 1920x640^ -extent 1920x640 -gravity South -crop 1920x640+0+0 -grayscale rec601luma +level 10%,35% _img/*.jpg
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
