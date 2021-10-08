@@ -57,6 +57,8 @@ img/back/1920: _img
 images: img/500 img/640 img/970 img/back/1024 img/back/1440 img/back/1920
 
 init:
+	npm install --no-save yarn
+	./node_modules/.bin/yarn install
 	bundle config set path 'vendor'
 	bundle install
 

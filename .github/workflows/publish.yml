@@ -34,6 +34,9 @@ jobs:
       - uses: jruipinto/ImageMagick-action@v1
         with:
           command: mogrify -path img/back/1920 -gravity North -crop 85%x45+0+30% +repage -resize 1920x640^ -extent 1920x640 -gravity South -crop 1920x640+0+0 -grayscale rec601luma +level 10%,35% _img/*.jpg
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          command: install
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

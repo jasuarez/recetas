@@ -21,6 +21,7 @@ exclude:
     - README.md
     - bower.json
     - vendor
+    - node_modules
 
 plugins: [jekyll-paginate]
 paginate: 12
