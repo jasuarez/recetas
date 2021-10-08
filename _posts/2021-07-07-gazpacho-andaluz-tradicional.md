@@ -20,7 +20,7 @@ Ingredientes:
     - 250 ml de agua fría
     - 30 ml de vinagre de Jerez
     - 5 gr de sal
-    - 50 gr de pan de hogaza duro
+    - 50 gr de miga de pan de hogaza duro
     - 50 ml de aceite de oliva virgen extra
 
 Pasos:
