@@ -10,7 +10,7 @@ comensales: 2
 tiempo: 20 minutos
 tags: [pasta,salsa]
 
-img: salsa carbonara
+img: salsa-carbonara
 
 Ingredientes:
     - 100 gr de panceta
