@@ -1,7 +1,7 @@
 ---
 layout: receta
 
-title: Salsa carbonara
+title: Spaguetti con salsa carbonara
 fuente:
     title: Directo al Paladar
     url: https://www.directoalpaladar.com/videos-recetas/receta-salsa-carbonara-asi-hacen-italianos-video-incluido
@@ -10,7 +10,7 @@ comensales: 2
 tiempo: 20 minutos
 tags: [pasta,salsa]
 
-img: salsa-carbonara
+img: spaguetti-con-salsa-carbonara
 
 Ingredientes:
     - 100 gr de panceta
