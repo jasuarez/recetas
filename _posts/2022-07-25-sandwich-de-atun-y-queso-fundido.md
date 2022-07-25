@@ -5,6 +5,7 @@ title: Sandwich de atún y queso fundido
 fuente:
     title: El Comidista
     url: https://elcomidista.elpais.com/elcomidista/2021/06/09/receta/1623262866_009999.html
+menu: otro
 tags: [atún,queso]
 
 img: sandwich-de-atun-y-queso-fundido
