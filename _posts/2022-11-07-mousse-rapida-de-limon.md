@@ -25,7 +25,7 @@ Pasos:
     - Agregar poco a poco el limón a la leche sin dejar de batir.
     - Añadir poco a poco el azúcar espolvoreándolo sobre la mezcla sin dejar de
       batir.
-    - Distribuír la mezcla en vasos y enfriar en la nevera.
+    - Distribuir la mezcla en vasos y enfriar en la nevera.
     - Servir.
 
 ---
