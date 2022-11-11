@@ -2,7 +2,6 @@
 layout: receta
 
 title: Alubias blancas con costillas de cerdo
-date: 2022-11-11
 fuente:
     title: Directo al Paladar
     url: https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/alubias-blancas-costillas-cerdo-receta-tradicional-este-delicioso-plato-cuchara
