@@ -10,7 +10,7 @@ comensales: 6
 tiempo: 27 minutos
 tags: [alubia,cerdo]
 
-img: alubias-blancas-con-costilla-de-cerdo
+img: alubias-blancas-con-costillas-de-cerdo
 
 Ingredientes:
     - 1 chorizo asturiano
