@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@bower_components/classie": "desandro/classie#^1.0.1",
+    "@bower_components/fastclick": "ftlabs/fastclick#>=0.6.11",
+    "@bower_components/foundation": "zurb/bower-foundation#^5.5.3",
+    "@bower_components/jquery": "jquery/jquery-dist#>= 2.1.0",
+    "@bower_components/jquery-placeholder": "mathiasbynens/jquery-placeholder#~2.0.7",
+    "@bower_components/jquery.cookie": "carhartl/jquery-cookie#~1.4.0",
+    "@bower_components/lazysizes": "aFarkas/lazysizes#^5.3.1",
+    "@bower_components/modernizr": "Modernizr/Modernizr#2.8.3",
+    "@bower_components/respimage": "aFarkas/respimage#^1.4.2",
+    "@bower_components/salvattore": "bandd/salvattore#^1.0.9"
+  },
+  "scripts": {
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
+  }
+}
