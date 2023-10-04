@@ -18,7 +18,7 @@ Ingredientes:
     Para el flan:
         - 100 gr de azúcar
         - 149 gr de queso en crema o queso Philadelphia (o mezcla de ambos)
-        - 200 gr de nata agria (o una mezcla a partes iguales de yogurt con
+        - 200 gr de nata agria (o una mezcla a partes iguales de yogur con
           crema fresca o quark)
         - 3 huevos
 
