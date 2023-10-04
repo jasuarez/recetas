@@ -8,7 +8,7 @@ fuente:
 menu: primero
 comensales: 6
 tiempo: 15 minutos
-tags: [crema,tomate]
+tags: [crema,pepino,tomate]
 
 img: gazpacho-andaluz-tradicional
 
