@@ -222,7 +222,7 @@ window.store = {
     "flan-de-queso-html": {
       "title": "Flan de queso",
       "menu": "postre",
-      "ingredientes": "{\"Para el caramelo\"=>[\"1 cucharada de café de agua\", \"125 gr de azúcar\"], \"Para el flan\"=>[\"100 gr de azúcar\", \"149 gr de queso en crema o queso Philadelphia (o mezcla de ambos)\", \"200 gr de nata agria (o una mezcla a partes iguales de yogurt con crema fresca o quark)\", \"3 huevos\"]}",
+      "ingredientes": "{\"Para el caramelo\"=>[\"1 cucharada de café de agua\", \"125 gr de azúcar\"], \"Para el flan\"=>[\"100 gr de azúcar\", \"149 gr de queso en crema o queso Philadelphia (o mezcla de ambos)\", \"200 gr de nata agria (o una mezcla a partes iguales de yogur con crema fresca o quark)\", \"3 huevos\"]}",
       "url": "/flan-de-queso.html"
     }
     ,
@@ -304,6 +304,22 @@ window.store = {
       "menu": "segundo",
       "ingredientes": "[\"1 chorizo asturiano\", \"1 hoja de laurel\", \"150 gr de panceta\", \"2 cucharadas de aceite de oliva virgen extra\", \"2 litros de agua\", \"500 gr de alubias blancas\", \"500 gr de costillas de cerdo en tacos (de la parte carnosa)\", \"6 bayas de pimienta negra en grano (opcional)\", \"Media cucharadita de pimentón dulce\", \"Sal al gusto\"]",
       "url": "/alubias-blancas-con-costillas-de-cerdo.html"
+    }
+    ,
+  
+    "crema-fria-pepino-yogur-griego-menta-html": {
+      "title": "Crema fría de pepino, yogur griego y menta",
+      "menu": "primero",
+      "ingredientes": "[\"1 yogur griego\", \"1/2 cebolleta\", \"1/2 diente de ajo\", \"2 pepinos pequeños\", \"Aceite de oliva virgen extra\", \"Menta fresca\", \"Pimienta negra molida\", \"Sal\", \"Vinagre de manzana\"]",
+      "url": "/crema-fria-pepino-yogur-griego-menta.html"
+    }
+    ,
+  
+    "pie-helado-html": {
+      "title": "Pie helado",
+      "menu": "postre",
+      "ingredientes": "[\"2 petit suisse de fresa\", \"25 gr de azúcar\", \"50 ml de nata para montar\", \"75 ml de leche entera\"]",
+      "url": "/pie-helado.html"
     }
     
   

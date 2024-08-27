@@ -57,8 +57,9 @@ img/back/1920: _img
 images: img/500 img/640 img/970 img/back/1024 img/back/1440 img/back/1920
 
 init:
-	npm install --no-save yarn
-	./node_modules/.bin/yarn install
+	mkdir -p npm
+	npm install --prefix ./npm bower
+	./npm/node_modules/.bin/bower install
 	bundle config set path 'vendor'
 	bundle install
 
