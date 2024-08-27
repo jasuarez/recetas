@@ -606,7 +606,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/css/app.css</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -621,7 +621,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/archive.html</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -636,7 +636,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/atom.xml</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -651,7 +651,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -666,7 +666,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/assets/js/search-content.js</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -681,7 +681,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/search.html</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -696,37 +696,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/assets/js/search.js</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://cenandoalasnueve.terralan.org/bin/node_modules/bower/lib/node_modules/github/seed.yml</loc>
-      
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://cenandoalasnueve.terralan.org/npm/node_modules/bower/lib/node_modules/github/seed.yml</loc>
-      
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -741,7 +711,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/sitemap.xml</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -756,7 +726,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/page2/</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -771,7 +741,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/page3/</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -786,7 +756,7 @@
     <url>
       <loc>http://cenandoalasnueve.terralan.org/page4/</loc>
       
-        <lastmod>2024-08-27T10:08:35+02:00</lastmod>
+        <lastmod>2024-08-27T10:23:50+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

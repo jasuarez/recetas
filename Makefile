@@ -57,11 +57,13 @@ img/back/1920: _img
 images: img/500 img/640 img/970 img/back/1024 img/back/1440 img/back/1920
 
 init:
-	mkdir -p npm
-	npm install --prefix ./npm bower
-	./npm/node_modules/.bin/bower install
+	mkdir -p vendor
+	npm install --prefix ./vendor bower
+	./vendor/node_modules/.bin/bower install
 	bundle config set path 'vendor'
 	bundle install
+	python3 -m venv vendor
+	./vendor/bin/pip install ghp-import
 
 build: clean images
 	$(JEKYLL) $(JEKYLLOPTS) build
@@ -77,6 +79,6 @@ serve: images
 	$(JEKYLL) $(JEKYLLOPTS) serve
 
 publish: build
-	ghp-import -n -p -f $(OUTPUTDIR)
+	./vendor/bin/ghp-import -n -p -f $(OUTPUTDIR)
 
 .PHONY: help init build check clean serve publish images
