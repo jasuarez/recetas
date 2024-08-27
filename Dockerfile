@@ -1,8 +1,8 @@
-FROM ubuntu:focal
+FROM ubuntu:22.04
 
-LABEL com.github.containers.toolbox="true" 
+LABEL com.github.containers.toolbox="true"
 
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
-    apt-get -y install libcap2-bin git make npm ruby-bundler ruby2.7-dev imagemagick-6.q16 ghp-import
+    apt-get -y install libcap2-bin sudo git make npm ruby-bundler ruby-dev apt install python3.10-venv imagemagick vim
