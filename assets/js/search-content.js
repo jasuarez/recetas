@@ -321,6 +321,14 @@ window.store = {
       "ingredientes": "[\"2 petit suisse de fresa\", \"25 gr de azúcar\", \"50 ml de nata para montar\", \"75 ml de leche entera\"]",
       "url": "/pie-helado.html"
     }
+    ,
+  
+    "crema-de-puerros-patata-pera-al-azafran-html": {
+      "title": "Crema de puerros, patata y pera al azafrán",
+      "menu": "primero",
+      "ingredientes": "[\"1 pera grande\", \"1 pizca de nuez moscada molida\", \"1 pizca de pimentón dulce\", \"100 ml de vino blanco\", \"15 gr de mantequilla\", \"2 patatas medianas\", \"3 puerros\", \"4 hebras de azafrán\", \"600 ml de caldo de verduras\", \"Aceite de oliva virgen extra\", \"Pimienta negra molida\", \"Sal\", \"Yogur natural o queso fresco para servir\"]",
+      "url": "/crema-de-puerros-patata-pera-al-azafran.html"
+    }
     
   
 }
