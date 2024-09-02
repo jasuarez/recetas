@@ -329,6 +329,14 @@ window.store = {
       "ingredientes": "[\"1 pera grande\", \"1 pizca de nuez moscada molida\", \"1 pizca de pimentón dulce\", \"100 ml de vino blanco\", \"15 gr de mantequilla\", \"2 patatas medianas\", \"3 puerros\", \"4 hebras de azafrán\", \"600 ml de caldo de verduras\", \"Aceite de oliva virgen extra\", \"Pimienta negra molida\", \"Sal\", \"Yogur natural o queso fresco para servir\"]",
       "url": "/crema-de-puerros-patata-pera-al-azafran.html"
     }
+    ,
+  
+    "crema-de-champinones-html": {
+      "title": "Crema de champiñones",
+      "menu": "primero",
+      "ingredientes": "[\"1 cebolla dulce, morada o cebolleta grande\", \"1 diente de ajo\", \"100 ml de vino blanco\", \"350 gr de champiñones\", \"400 ml de caldo de verduras o pollo\", \"5 gr de romero seco\", \"5 gr de tomillo seco\", \"Aceite de oliva virgen extra y/o mantequilla\", \"Cebollino\", \"Pimienta negra molida\", \"Sal\"]",
+      "url": "/crema-de-champinones.html"
+    }
     
   
 }
