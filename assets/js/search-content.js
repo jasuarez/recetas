@@ -345,6 +345,14 @@ window.store = {
       "ingredientes": "[\"1 cebolla\", \"1 cucharada de harina de ma\\u00EDz refinada (Maicena)\", \"1 solomillo de cerdo\", \"100 ml de caldo de pollo o carne\", \"150 ml de Pedro Xim\\u00E9nez\", \"2 dientes de ajo\", \"Aceite de oliva\", \"Pimienta negra molida\", \"Sal\"]",
       "url": "/solomillo-de-cerdo-al-pedro-ximenez.html"
     }
+    ,
+  
+    "crema-de-coliflor-al-azafran-html": {
+      "title": "Crema de coliflor al azafrán",
+      "menu": "primero",
+      "ingredientes": "[\"1 cebolla\", \"1 coliflor\", \"1 l de caldo de verduras o agua\", \"1 puerro\", \"2 dientes de ajo\", \"Aceite de oliva virgen extra\", \"Azafr\\u00E1n en hebras\", \"Mantequilla (opcional)\", \"Pimienta negra molida\", \"Sal\"]",
+      "url": "/crema-de-coliflor-al-azafran.html"
+    }
     
   
 }
