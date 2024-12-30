@@ -353,6 +353,14 @@ window.store = {
       "ingredientes": "[\"1 cebolla\", \"1 coliflor\", \"1 l de caldo de verduras o agua\", \"1 puerro\", \"2 dientes de ajo\", \"Aceite de oliva virgen extra\", \"Azafr\\u00E1n en hebras\", \"Mantequilla (opcional)\", \"Pimienta negra molida\", \"Sal\"]",
       "url": "/crema-de-coliflor-al-azafran.html"
     }
+    ,
+  
+    "flan-de-limon-html": {
+      "title": "Flan de limón",
+      "menu": "postre",
+      "ingredientes": "{\"Para el flan\"=>[\"250 ml de agua\", \"250 ml de zumo de lim\\u00F3n reci\\u00E9n exprimido y colado (sin pulpa)\", \"50 gr de almid\\u00F3n de ma\\u00EDz (Maizena)\", \"60 gr de az\\u00FAcar\"], \"Para el caramelo\"=>[\"20 ml de agua\", \"60 gr de az\\u00FAcar\"]}",
+      "url": "/flan-de-limon.html"
+    }
     
   
 }
