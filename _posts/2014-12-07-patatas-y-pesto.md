@@ -14,7 +14,7 @@ img: patatas-y-pesto
 Ingredientes:
     Para las patatas:
         - 4 patatas medianas para cocer (monalisa, ágata o parmentine)
-        - 3 cucharadas soperas de crema fresca (nata en crema)
+        - 3 cucharadas soperas de crema fresca (crème fraîche o nata en crema)
         - 100 gr de bacon o jamón cocido.
         - 20 gr de queso emmental o gruyer rallado
         - Sal
