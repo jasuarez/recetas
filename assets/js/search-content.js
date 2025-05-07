@@ -46,7 +46,7 @@ window.store = {
     "arroz-de-montana-html": {
       "title": "Arroz de montaña",
       "menu": "segundo",
-      "ingredientes": "[\"1 cebolla\", \"1 pimiento verde\", \"200 gr de setas mezcladas\", \"200 gr de salsa de tomate o TPM.\", \"50 gr de guisantes\", \"500 gr de arroz (arborio, carnaroli o bomba)\", \"2 dientes de ajo\", \"1,5 l (mínimo) de caldo de pollo\", \"1 butifarra troceada\", \"1/4 de pollo troceado\", \"1/4 de conejo troceado\", \"1 trozo de costilla de cerdo\", \"Sal\", \"Aceite\"]",
+      "ingredientes": "[\"1 cebolla\", \"1 pimiento verde\", \"200 gr de setas mezcladas\", \"200 gr de salsa de tomate o tomate natural.\", \"50 gr de guisantes\", \"500 gr de arroz (arborio, carnaroli o bomba)\", \"2 dientes de ajo\", \"1,5 l (mínimo) de caldo de pollo\", \"1 butifarra troceada\", \"1/4 de pollo troceado\", \"1/4 de conejo troceado\", \"1 trozo de costilla de cerdo\", \"Sal\", \"Aceite\"]",
       "url": "/arroz-de-montana.html"
     }
     ,
@@ -110,7 +110,7 @@ window.store = {
     "cerezas-fresas-y-tomate-html": {
       "title": "Cerezas, fresas y tomate",
       "menu": "primero",
-      "ingredientes": "[\"100 ml de Pedro Ximénez\", \"100 ml de vinagre de módena\", \"400 gr de cerezas\", \"400 gr de fresas\", \"400 gr de rulo de cabra\", \"400 gr de tomate pera en tpm\", \"Aceite de oliva vírgen\", \"Flor de sal (o sal Maldon)\"]",
+      "ingredientes": "[\"100 ml de Pedro Ximénez\", \"100 ml de vinagre de módena\", \"400 gr de cerezas\", \"400 gr de fresas\", \"400 gr de rulo de cabra\", \"400 gr de tomate pera\", \"Aceite de oliva vírgen\", \"Flor de sal (o sal Maldon)\"]",
       "url": "/cerezas-fresas-y-tomate.html"
     }
     ,
@@ -134,7 +134,7 @@ window.store = {
     "lasana-bolonesa-html": {
       "title": "Lasaña boloñesa",
       "menu": "segundo",
-      "ingredientes": "{\"Para la lasaña\"=>[\"1 paquete de pasta de lasaya Wonton\", \"150 gr de queso emmental (o gruyer)\", \"2 cucharadas soperas de concentrado de tomate\", \"2 huevos duros\", \"200 gr de carne de cerdo picada\", \"200 gr de queso mozzarella\", \"30 gr de mantequilla\", \"300 gr de carne de ternera picada\", \"4 cucharadas soperas de vino blanco\", \"50 gr de apio en brunoise (dados)\", \"50 gr de zanahora en brunoise (dados)\", \"500 gr de tomate natural en tpm (o salsa de tomate cocido)\", \"Aceite\", \"Pimienta\", \"Sal\"], \"Para la bechamel\"=>[\"750 ml de leche\", \"90 gr de harina\", \"90 gr de mantequilla\"]}",
+      "ingredientes": "{\"Para la lasaña\"=>[\"1 paquete de pasta de lasaya Wonton\", \"150 gr de queso emmental (o gruyer)\", \"2 cucharadas soperas de concentrado de tomate\", \"2 huevos duros\", \"200 gr de carne de cerdo picada\", \"200 gr de queso mozzarella\", \"30 gr de mantequilla\", \"300 gr de carne de ternera picada\", \"4 cucharadas soperas de vino blanco\", \"50 gr de apio en brunoise (dados)\", \"50 gr de zanahora en brunoise (dados)\", \"500 gr de tomate natural (o salsa de tomate cocido)\", \"Aceite\", \"Pimienta\", \"Sal\"], \"Para la bechamel\"=>[\"750 ml de leche\", \"90 gr de harina\", \"90 gr de mantequilla\"]}",
       "url": "/lasana-bolonesa.html"
     }
     ,
