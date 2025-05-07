@@ -24,7 +24,7 @@ Ingredientes:
         - 4 cucharadas soperas de vino blanco
         - 50 gr de apio en brunoise (dados)
         - 50 gr de zanahora en brunoise (dados)
-        - 500 gr de tomate natural en tpm (o salsa de tomate cocido)
+        - 500 gr de tomate natural (o salsa de tomate cocido)
         - Aceite
         - Pimienta
         - Sal
@@ -38,10 +38,10 @@ Pasos:
       zanahoria. Cuando estén hechos, añadir las carnes (deshaciéndolas bien con
       los dedos) y dejar hacer unos 10 minutos, hasta que esté hecha. Añadir las
       4 cucharadas de vino blanco.
-    - Preparar el tomate en tpm (pelado sin pepitas y en macedonia).
+    - Si se usa tomate natural, pelarlo y cortarlo en macedonia sin pepitas.
     - Añadir el tomate junto con el concentrado, sal y pimienta. Dejar reducir a
-      fuego lento. Si el tomate es tpm, dejarlo tapado; si es de bote, dejarlo
-      destapado, ya que ya incorpora mucho líquido.
+      fuego lento. Si el tomate es natural, dejarlo tapado; si es de bote,
+      dejarlo destapado, ya que ya incorpora mucho líquido.
     - Incorporar 100 gr de queso emmental (o gruyer) rallado, remover bien y
       retirar del fuego.
     - Llenar una olla grande con agua y poner a hervir. Colocar la pasta (una o

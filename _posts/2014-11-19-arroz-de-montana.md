@@ -15,7 +15,7 @@ Ingredientes:
     - 1 cebolla
     - 1 pimiento verde
     - 200 gr de setas mezcladas
-    - 200 gr de salsa de tomate o TPM.
+    - 200 gr de salsa de tomate o tomate natural.
     - 50 gr de guisantes
     - 500 gr de arroz (arborio, carnaroli o bomba)
     - 2 dientes de ajo
@@ -33,8 +33,9 @@ Pasos:
     - En una cazuela, añadir el aceite y sofreir la costilla, el conejo, la
       butifarra y el pollo. Dejarlos que se doren.
     - Añadir la cebolla y el pimiento picados finos y dejarlos un buen rato.
-    - Añadir los ajos picados finamente, dejar que se dore e incorporar el
-      tomate. Dejar hacerse el sofrito un mínimo de 35 a 40 minutos.
+    - Añadir los ajos picados finamente, dejar que se dore e incorporar la
+      salsa de tomate, o el tomate natural pelado, sin pepitas y cortado en
+      macedonia. Dejar hacerse el sofrito un mínimo de 35 a 40 minutos.
     - Cuando el sofrito esté hecho, incorporar las setas, los guisantes y el
       arroz. Darle vueltas hasta que el arroz comience a nacarar, y añadir el
       caldo que tendremos hirviendo, reservando un poco para el final.
@@ -46,8 +47,5 @@ Pasos:
       reservado.
     - Retiramos del fuego y dejamos reposar cubierto con un trapo. Remover antes
       de servir.
-
-Notas: TPM significa tomate pelado, sin semillas y cortado en dados tipo
-    macedonia.
 
 ---
