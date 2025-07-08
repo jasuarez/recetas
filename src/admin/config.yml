@@ -69,7 +69,7 @@ collections:
         - {label: "Title of the highlighted tag section (label)", name: "highlightedTitle", widget: "string"}
         - {label: "Link text to all recipes with the highlighted tag (label)", name: "highlightedLinkText", widget: "string"}
     - name: "recipes"
-      label: "All recipes page"
+      label: "Página con todas la recetas"
       file: "src/recipes.md"
       fields:
         - {label: "Title", name: "title", widget: "string"}
@@ -77,4 +77,4 @@ collections:
       label: "Tags pages"
       file: "src/tag.md"
       fields:
-        - {label: "All recipes (label)", name: "allRecipesLabel", widget: "string"}
+        - {label: "Todas las recetas (etiqueta)", name: "allRecipesLabel", widget: "string"}
