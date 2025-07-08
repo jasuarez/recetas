@@ -1,9 +1,9 @@
 ---
 layout: layouts/home.njk
-title: This cookbook belongs to
-authorInTitle: true
+title: Cenando a las Nueve
+authorInTitle: false
 metaTitle: Home
-highlightedTag: Favourite ⭐
-highlightedTitle: Some of my favourite recipes
-highlightedLinkText: All my favourite recipes
+highlightedTag: Favorita ⭐
+highlightedTitle: Algunas de mis recetas favoritas
+highlightedLinkText: Todas mis recetas favoritas
 ---

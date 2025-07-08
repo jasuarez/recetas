@@ -1,12 +1,12 @@
 {
-    "name": "My Online Cookbook",
-    "metaDescription": "The online cookbook of John Doe",
-    "author": "John Doe",
+    "name": "Cenando a las Nueve",
+    "metaDescription": "Un lugar donde tener mis recetas",
+    "author": "Juan A. Suárez",
     "primaryColor": "#ffdb70",
     "secondaryColor": "#32816e",
-    "searchLabel": "Find recipes by name, tag or ingredients",
-    "searchContainsLabel": "Contains",
-    "servingsLabel": "servings",
-    "ingredientsLabel": "Ingredients",
-    "baseURL": "https://myonlinecookbook.netlify.app"
+    "searchLabel": "Buscar recetas por nombre, etiqueta o ingredientes",
+    "searchContainsLabel": "Contiene",
+    "servingsLabel": "comensales",
+    "ingredientsLabel": "Ingredientes",
+    "baseURL": "https://cenandoalasnueve.terralan.org"
 }
