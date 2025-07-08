@@ -78,9 +78,3 @@ collections:
       file: "src/tag.md"
       fields:
         - {label: "All recipes (label)", name: "allRecipesLabel", widget: "string"}
-    - name: "about"
-      label: "About page"
-      file: "src/about.md"
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Body", name: "body", widget: "markdown"}
