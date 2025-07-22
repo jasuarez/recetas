@@ -1,0 +1,319 @@
+
+[
+    
+        {
+            "title" : "Arroz de montaña",
+            "url" : "/recipes/arroz-de-montana/",
+            "ingredients" : ["1 cebolla","1 pimiento verde","200 gr de setas mezcladas","200 gr de salsa de tomate o tomate natural.","50 gr de guisantes","500 gr de arroz (arborio, carnaroli o bomba)","2 dientes de ajo","1,5 l (mínimo) de caldo de pollo","1 butifarra troceada","1/4 de pollo troceado","1/4 de conejo troceado","1 trozo de costilla de cerdo","Sal","Aceite"],
+            "tags" : ["Segundo","Arroz 🍚","Butifarra 🌭","Carne 🥩","Cerdo 🐖","Conejo 🐇","Pollo 🍗"]
+        },
+    
+        {
+            "title" : "Tagliatelle carbonara",
+            "url" : "/recipes/tagliatelle-carbonara/",
+            "ingredients" : ["1 paquete de tagliatelle","100 gr de bacon","100 gr de jamón serrano","150 ml de leche","2 cucharadas de queso parmesano rallado","250 gr de chalota","400 ml de nata de 18% mg","6 yemas de huevo, uno por persona (opcional)","Aceite","Mantequilla","Pimienta","Sal"],
+            "tags" : ["Segundo","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Spaguetti con salsa carbonara",
+            "url" : "/recipes/spaguetti-con-salsa-carbonara/",
+            "ingredients" : ["100 gr de panceta","2 yemas de huevo","200 gr de pasta larga seca (tallarines, espaguetis, etc)","50 gr de queso parmesano","Agua de cocer la pasta","Pimienta negra molida","Sal"],
+            "tags" : ["Segundo","Pasta 🍝","Salsa"]
+        },
+    
+        {
+            "title" : "Salmón con miel y mostaza",
+            "url" : "/recipes/salmon-con-miel-y-mostaza/",
+            "ingredients" : ["1 cucharada de café de piel rallada de limón","2 cucharadas soperas de aceite de oliva virgen","2 cucharadas soperas de miel","2 cucharadas soperas de mostaza","2 cucharadas soperas de zumo de limón","600 gr de salmón en lomos o rodajas sin piel","Eneldo","Pimienta","Sal"],
+            "tags" : ["Segundo","Miel 🍯","Pescado 🐟","Salmón 🍣"]
+        },
+    
+        {
+            "title" : "Alubias blancas con costillas de cerdo",
+            "url" : "/recipes/alubias-blancas-con-costillas-de-cerdo/",
+            "ingredients" : ["1 chorizo asturiano","1 hoja de laurel","150 gr de panceta","2 cucharadas de aceite de oliva virgen extra","2 litros de agua","500 gr de alubias blancas","500 gr de costillas de cerdo en tacos (de la parte carnosa)","6 bayas de pimienta negra en grano (opcional)","Media cucharadita de pimentón dulce","Sal al gusto"],
+            "tags" : ["Segundo","Alubia 🫘","Carne 🥩","Cerdo 🐖"]
+        },
+    
+        {
+            "title" : "Albóndigas de cerdo y gambas en caldo aromático",
+            "url" : "/recipes/albondigas-de-cerdo-y-gambas-en-caldo-aromatico/",
+            "ingredients" : ["Para el plato principal","300 gr de carne picada de cerdo","200 gr de gambas crudas sin pelar","1 cucharada sopera de cebollino picado","1 cucharada de café de jenjibre rallado","1 cebolleta","1 bolsa pequeña de espinacas baby","Sal","Pimienta","Aceite de oliva","Para el caldo","1 l de caldo de pollo o pescado","2 semillas de anís estrellado","1 trozo de jenjibre","1 cucharada o más de café de salsa de soja (u otra salsa oriental, como salsa de ostras o salsa teriyaki)"],
+            "tags" : ["Segundo","Caldo 🥣","Carne 🥩","Cerdo 🐖","Gamba 🦐"]
+        },
+    
+        {
+            "title" : "Puerros en vinagreta",
+            "url" : "/recipes/puerros-en-vinagreta/",
+            "ingredients" : ["1 kg de puerros","1 cucharada de café de mostaza","3 cucharadas soperas de vinagre","6 cucharadas soperas de aceite","2 huevos","Cebollino","Sal","Pimienta"],
+            "tags" : ["Primero","Puerro","Verdura 🥦"]
+        },
+    
+        {
+            "title" : "Salsa alioli",
+            "url" : "/recipes/salsa-alioli/",
+            "ingredients" : ["1 huevo","1 diente de ajo","Aceite","Sal"],
+            "tags" : ["Salsa"]
+        },
+    
+        {
+            "title" : "Pescado marinado con jenjibre y vinagre de arroz",
+            "url" : "/recipes/pescado-marinado-con-jenjibre-y-vinagre-de-arroz/",
+            "ingredients" : ["Para el pescado","6 cortes de salmón de 125 gr (sin espinas, aproximadamente dos lomos) (alternativamente se podría usar también bacalao fresco)","Aceite","Pimienta","Sal","Para la marinada","1 cucharada sopera de azúcar moreno","1 cucharada sopera de jenjibre rallado","3 cucharadas soperas de salsa de soja","3 cucharadas soperas de vinagre de arroz","Para la salsa","1 cucharada sopera de azúcar moreno","2 cucharadas soperas de salsa de soja","3 cucharadas soperas de vinagre de arroz","Zumo de lima (media lima)"],
+            "tags" : ["Segundo","Pescado 🐟","Salmón 🍣"]
+        },
+    
+        {
+            "title" : "Flan de café",
+            "url" : "/recipes/flan-de-cafe/",
+            "ingredients" : ["Para el flan","1 trozo de vaina de vainilla","175 gr de azúcar","2 cucharadas soperas de café soluble (o 50 ml de café negro fuerte)","2 huevos","6 yemas de huevo","750 ml de leche","Para el caramelo","1 cucharada de café de agua","100 gr de azúcar"],
+            "tags" : ["Postre","Café ☕","Flan 🍮"]
+        },
+    
+        {
+            "title" : "Macarrones con gambas",
+            "url" : "/recipes/macarrones-con-gambas/",
+            "ingredients" : ["Para los macarrones","18 gambas (600 gr)","350 gr de macarrones","Aceite de oliva virgen","Pimienta","Sal","Para la salsa","0.5 calabacín en brunoise (dados pequeños)","1 zanahoria en brunoise (dados pequeños)","100 gr de Jerez seco","20 gr de aceite de oliva virgen","20 gr de mantequilla","300 gr de puerro emincé (láminas finas)","50 gr de puerro emincé (láminas finas)","600 ml de nata líquida (35% preferentemente, si no 18%)","Pimienta negra","Sal"],
+            "tags" : ["Segundo","Gamba 🦐","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Spaghetti con salsa de limón, crema y perejil con chips de pollo",
+            "url" : "/recipes/spaguetti-con-salsa-de-limon-crema-y-perejil-con-chips-de-pollo/",
+            "ingredients" : ["0.5 de taza de perejil fresco picado","1 limón (ralladura)","1 limón (zumo)","1 pechuga de pollo cortada en pequeños trocitos","1 trozo de queso parmesano rallado","2 cucharadas soperas de mostaza","400 ml de crema de leche (nata líquida de 18% mg)","500 gr de spaguetti","Pimienta","Sal"],
+            "tags" : ["Segundo","Carne 🥩","Pasta 🍝","Pollo 🍗","Limón 🍋"]
+        },
+    
+        {
+            "title" : "Mousse rápida de limón",
+            "url" : "/recipes/mousse-rapida-de-limon/",
+            "ingredients" : ["100 gr de azúcar","2 limones","200 ml de leche evaporada"],
+            "tags" : ["Postre","Limón 🍋"]
+        },
+    
+        {
+            "title" : "Enrollado de carne y bacon",
+            "url" : "/recipes/enrollado-de-carne-y-bacon/",
+            "ingredients" : ["1 cebolla picada","1 huevo batido","100 gr de bacon ahumado picado","125 gr de queso emmental o mozzarella rallado","2 huevos duros","250 gr de carne de cerdo picada","250 gr de carne de ternera picada","30 gr de pan rallado","Perejil","Pimienta","Sal"],
+            "tags" : ["Segundo","Bacon 🥓","Carne 🥩"]
+        },
+    
+        {
+            "title" : "Flan de queso",
+            "url" : "/recipes/flan-de-queso/",
+            "ingredients" : ["Para el caramelo","1 cucharada de café de agua","125 gr de azúcar","Para el flan","100 gr de azúcar","149 gr de queso en crema o queso Philadelphia (o mezcla de ambos)","200 gr de nata agria (o una mezcla a partes iguales de yogur con crema fresca o quark)","3 huevos"],
+            "tags" : ["Postre","Flan 🍮","Queso 🧀"]
+        },
+    
+        {
+            "title" : "Flan",
+            "url" : "/recipes/flan/",
+            "ingredients" : ["Para el caramelo","1 cucharada de agua","150 gr de azúcar","Para el flan","1 limón (la ralladura)","130 gr de azúcar","3 huevos","500 ml de leche"],
+            "tags" : ["Postre","Flan 🍮"]
+        },
+    
+        {
+            "title" : "Crullers de naranja y miel",
+            "url" : "/recipes/crullers-de-naranja-y-miel/",
+            "ingredients" : ["Para los crullers","1 clara de huevo","1 huevo","125 ml de leche","15 gr de azúcar","45 gr de mantequilla","80 gr de harina","1 naranja o mandarina (la piel en un trozo)","Aceite","Sal","Para el glaseado","1 cucharada de café de agua","1 cucharada de café de miel","40 gr de azúcar glass"],
+            "tags" : ["Postre","Miel 🍯","Naranja 🍊"]
+        },
+    
+        {
+            "title" : "Solomillo de cerdo al Pedro Ximénez",
+            "url" : "/recipes/solomillo-de-cerdo-al-pedro-ximenez/",
+            "ingredients" : ["1 cebolla","1 cucharada de harina de maíz refinada (Maicena)","1 solomillo de cerdo","100 ml de caldo de pollo o carne","150 ml de Pedro Ximénez","2 dientes de ajo","Aceite de oliva","Pimienta negra molida","Sal"],
+            "tags" : ["Segundo","Carne 🥩","Cerdo 🐖"]
+        },
+    
+        {
+            "title" : "Sandwich de atún y queso fundido",
+            "url" : "/recipes/sandwich-de-atun-y-queso-fundido/",
+            "ingredients" : ["0.5 chalota","10 gr de mostaza de Dijon (1 cucharadita)","170 gr de atún en lata","30 gr de pepinillos (6 o 7)","4 lonchas de queso que funda bien (cheddar, gouda, edam, etc)","4 rebanadas de pan de molde cortado grueso","5 gr de alcaparras (10 o 12)","80 gr de mayonesa + un poco extra","Perejil","Pimienta negra recién molida","Sal"],
+            "tags" : ["Atún","Queso 🧀"]
+        },
+    
+        {
+            "title" : "Chupa chups de pollo",
+            "url" : "/recipes/chupa-chups-de-pollo/",
+            "ingredients" : ["0.25 de cebolla","1 cucharada de perejil picado","1 cucharadita de pimentón","1 diente de ajo","2 cucharadas de harina","2 tomates","3 pechugas de pollo picadas","Unas cucharadas de ketchup","Aceite","Sal","Pimienta"],
+            "tags" : ["Segundo","Carne 🥩","Pollo 🍗"]
+        },
+    
+        {
+            "title" : "Conchas de ricotta",
+            "url" : "/recipes/conchas-de-ricotta/",
+            "ingredients" : ["Para la salsa","1 kg de salsa de tomate (cocido o natural)","150 gr de bacon en brunoise","2 dientes de ajo picados finamente","Aceite","Para el relleno","1 cucharada de café de menta","150 gr de queso parmesano rallado","3 cuchadadas soperas de albahaca picada","3 cucharadas soperas de perejil picado","36 conchas de pasta, tipo galet, para rellenar","4 yemas de huevo","400 gr de queso ricotta (o requesón)","Pimienta","Sal","Un poco de queso mozzarela rallado"],
+            "tags" : ["Primero","Queso 🧀","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Flan de limón",
+            "url" : "/recipes/flan-de-limon/",
+            "ingredients" : ["Para el flan","250 ml de agua","250 ml de zumo de limón recién exprimido y colado (sin pulpa)","50 gr de almidón de maíz (Maizena)","60 gr de azúcar","Para el caramelo","20 ml de agua","60 gr de azúcar"],
+            "tags" : ["Postre","Flan 🍮","Limón 🍋"]
+        },
+    
+        {
+            "title" : "Hamburguesa de salmón",
+            "url" : "/recipes/hamburguesa-de-salmon/",
+            "ingredients" : ["1 cucharada sopera de cebollino picado","1 diente de ajo","1 puerro","2 yemas de huevo","6 x 125gr de salmón limpio y sin espinas","Lechuga","Mostaza","Pan de hamburguesa","Pimienta","Sal","Tabasco","Tomate"],
+            "tags" : ["Segundo","Pescado 🐟","Salmón 🍣"]
+        },
+    
+        {
+            "title" : "Lomos de atún gratinados con mahonesa",
+            "url" : "/recipes/lomos-de-atun-gratinados-con-mahonesa/",
+            "ingredients" : ["1 huevo","150 ml de mahonesa (o lactonesa), mejor casera","2 rodajas de atún fresco y limpio","Cebollino"],
+            "tags" : ["Pescado 🐟","Atún"]
+        },
+    
+        {
+            "title" : "Pesto de espinacas y avellanas",
+            "url" : "/recipes/pesto-de-espinacas-y-avellanas/",
+            "ingredients" : ["1 diente de ajo","100 gr de espinacas frescas","100 gr de queso parmesano rallado","60 gr de avellanas","80 ml de aceite de oliva virgen extra","Pimienta negra molida","Sal"],
+            "tags" : ["Salsa","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Pesto de rúcula y nueces",
+            "url" : "/recipes/pesto-de-rucula-y-nueces/",
+            "ingredients" : ["1 diente de ajo","100 gr de aceite de oliva virgen extra","150 gr de rúcula","50 gr de nueces peladas","50 gr de queso parmesano o de Mahón rallado","Sal"],
+            "tags" : ["Salsa","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Pesto tradicional",
+            "url" : "/recipes/pesto-tradicional/",
+            "ingredients" : ["100 gr de albahaca fresca (sólo las hojas)","160 ml de aceite de oliva virgen extra","2 dientes de ajo","200 gr de queso parmesano rallado","75 gr de piñones","Sal"],
+            "tags" : ["Salsa","Pasta 🍝"]
+        },
+    
+        {
+            "title" : "Cerezas, fresas y tomate",
+            "url" : "/recipes/cerezas-fresas-y-tomate/",
+            "ingredients" : ["100 ml de Pedro Ximénez","100 ml de vinagre de módena","400 gr de cerezas","400 gr de fresas","400 gr de rulo de cabra","400 gr de tomate pera","Aceite de oliva vírgen","Flor de sal (o sal Maldon)"],
+            "tags" : ["Primero","Cereza 🍒","Fresa 🍓","Fruta","Tomate 🍅"]
+        },
+    
+        {
+            "title" : "Molinetes de Nutella",
+            "url" : "/recipes/molinetes-de-nutella/",
+            "ingredients" : ["1 paquete de pasta de hojaldre o de brisa (masa quebrada)","1 bote de Nutella (o similar)"],
+            "tags" : ["Postre","Chocolate 🍫"]
+        },
+    
+        {
+            "title" : "Lasaña boloñesa",
+            "url" : "/recipes/lasana-bolonesa/",
+            "ingredients" : ["Para la lasaña","1 paquete de pasta de lasaya Wonton","150 gr de queso emmental (o gruyer)","2 cucharadas soperas de concentrado de tomate","2 huevos duros","200 gr de carne de cerdo picada","200 gr de queso mozzarella","30 gr de mantequilla","300 gr de carne de ternera picada","4 cucharadas soperas de vino blanco","50 gr de apio en brunoise (dados)","50 gr de zanahora en brunoise (dados)","500 gr de tomate natural (o salsa de tomate cocido)","Aceite","Pimienta","Sal","Para la bechamel","750 ml de leche","90 gr de harina","90 gr de mantequilla"],
+            "tags" : ["Segundo","Lasaña","Carne 🥩"]
+        },
+    
+        {
+            "title" : "Rossejat de cuscús y gambas",
+            "url" : "/recipes/rossejat-de-cuscus-y-gambas/",
+            "ingredients" : ["Para el cuscús","18 gambas pequeñas (o 12 medianas)","500 gr de cuscús","Aceite de oliva","Para el alioli","1 ajo","1 huevo","Aceite","Sal","Para el fumet","0.5 cebolla","0.5 zanahoria","1 hoja de laurel","1 trozo de puerro","1 trozo pequeño de apio","1200 ml de agua","250 gr de pez de roca (rape, mero, sargo, faneca, bejel, pejesapo, ...)","Las cabezas de las gambas","Pimienta","Sal"],
+            "tags" : ["Segundo","Cuscús","Gamba 🦐"]
+        },
+    
+        {
+            "title" : "Gazpacho andaluz tradicional",
+            "url" : "/recipes/gazpacho-andaluz-tradicional/",
+            "ingredients" : ["1 kg de tomate pera maduro","1 pepino","1 pimiento verde italiano","2 dientes de ajo","250 ml de agua fría","30 ml de vinagre de Jerez","5 gr de sal","50 gr de miga de pan de hogaza duro","50 ml de aceite de oliva virgen extra"],
+            "tags" : ["Primero","Crema","Pepino 🥒","Tomate 🍅"]
+        },
+    
+        {
+            "title" : "Crema de coliflor",
+            "url" : "/recipes/crema-de-coliflor/",
+            "ingredients" : ["400 gr de coliflor (solo las floretas blancas, cuanto más pequeñas mejor)","20 ml de aceite de oliva (puede ser un poco más, hasta 50 ml)","10 gr de mantequilla","120 ml de nata líquida de 35% mg","Agua","Sal","Pimienta"],
+            "tags" : ["Primero","Coliflor","Crema","Verdura 🥦"]
+        },
+    
+        {
+            "title" : "Crema de coliflor al azafrán",
+            "url" : "/recipes/crema-de-coliflor-al-azafran/",
+            "ingredients" : ["1 cebolla","1 coliflor","1 l de caldo de verduras o agua","1 puerro","2 dientes de ajo","Aceite de oliva virgen extra","Azafrán en hebras","Mantequilla (opcional)","Pimienta negra molida","Sal"],
+            "tags" : ["Primero","Crema","Coliflor"]
+        },
+    
+        {
+            "title" : "Pie helado",
+            "url" : "/recipes/pie-helado/",
+            "ingredients" : ["2 petit suisse de fresa","25 gr de azúcar","50 ml de nata para montar","75 ml de leche entera"],
+            "tags" : ["Postre","Helado 🍦"]
+        },
+    
+        {
+            "title" : "Crema de champiñones",
+            "url" : "/recipes/crema-de-champinones/",
+            "ingredients" : ["1 cebolla dulce, morada o cebolleta grande","1 diente de ajo","100 ml de vino blanco","350 gr de champiñones","400 ml de caldo de verduras o pollo","5 gr de romero seco","5 gr de tomillo seco","Aceite de oliva virgen extra y/o mantequilla","Cebollino","Pimienta negra molida","Sal"],
+            "tags" : ["Primero","Crema","Champiñón 🍄‍🟫"]
+        },
+    
+        {
+            "title" : "Fresas a la pimienta negra",
+            "url" : "/recipes/fresas-a-la-pimienta-negra/",
+            "ingredients" : ["1 kg de fresas o fresones","180 gr de azúcar","200 gr de nata líquida (35% mg)","50 ml de Grand Marnier o Cointreau","Pimienta negra molida (media cucharada de café o 18 vueltes de un molinillo)"],
+            "tags" : ["Postre","Fresa 🍓","Fruta"]
+        },
+    
+        {
+            "title" : "Patatas y pesto",
+            "url" : "/recipes/patatas-y-pesto/",
+            "ingredients" : ["Para las patatas","4 patatas medianas para cocer (monalisa, ágata o parmentine)","3 cucharadas soperas de crema fresca (crème fraîche o nata en crema)","100 gr de bacon o jamón cocido.","20 gr de queso emmental o gruyer rallado","Sal","Pimienta","Para el pesto","0.5 bandeja de albahaca fresca (sólo las hojas)","0.5 diente de ajo pequeño","20 gr de piñones","30 gr de queso parmesano rallado","75 ml de aceite"],
+            "tags" : ["Segundo","Patata 🥔"]
+        },
+    
+        {
+            "title" : "Merluza con chorizo y garbanzos",
+            "url" : "/recipes/merluza-con-chorizo-y-garbanzos/",
+            "ingredients" : ["0.25 trozo de chorizo","2 tazas de garbanzos cocidos","4 cucharadas de harina","4 rodajas de merluza","Aceite","Sal","Pimimenta","Salsa alioli (opcional)"],
+            "tags" : ["Segundo","Chorizo","Garbanzo","Legumbre 🫛","Merluza","Pescado 🐟"]
+        },
+    
+        {
+            "title" : "Pan con aceite y chocolate",
+            "url" : "/recipes/pan-con-aceite-y-chocolate/",
+            "ingredients" : ["125 ml de leche","125 ml de nata líquida (mínimo de 32% mg)","200 mg de chocolate negro","2 yemas de huevo","Pan de molde sin corteza","Sal en escamas","Aceite"],
+            "tags" : ["Postre","Chocolate 🍫","Pan 🍞"]
+        },
+    
+        {
+            "title" : "Crema fría de pepino, yogur griego y menta",
+            "url" : "/recipes/crema-fria-pepino-yogur-griego-menta/",
+            "ingredients" : ["0.5 cebolleta","0.5 diente de ajo","1 yogur griego","2 pepinos pequeños","Aceite de oliva virgen extra","Menta fresca","Pimienta negra molida","Sal","Vinagre de manzana"],
+            "tags" : ["Primero","Crema","Pepino 🥒"]
+        },
+    
+        {
+            "title" : "Fideos encebollados con pollo al curry",
+            "url" : "/recipes/fideos-encebollados-con-pollo-al-curry/",
+            "ingredients" : ["1 cebolla cortada en juliana muy fina","1 cucharada de café de cúrcuma en polvo","1 cucharada sopera de curry en polvo","1 pechuga de pollo cortada en tacos de 2cm","4 puñados de fideos entrefinos","500 ml de caldo de pollo"],
+            "tags" : ["Segundo","Carne 🥩","Pasta 🍝","Pollo 🍗"]
+        },
+    
+        {
+            "title" : "Mejillones con crema de puerros y mostaza",
+            "url" : "/recipes/mejillones-con-crema-de-puerros-y-mostaza/",
+            "ingredients" : ["1 limón (el zumo)","100 ml de agua","100 ml de vino blanco seco (como Martini Bianco)","200 gr de puerros","25 gr de mostaza","500 gr de mejillones","75 ml de aceite de oliva","Perejil picado","Pimienta","Sal"],
+            "tags" : ["Primero","Mejillón","Mostaza","Puerro"]
+        },
+    
+        {
+            "title" : "Ensalada tibia de setas y bacon",
+            "url" : "/recipes/ensalada-tibia-de-setas-y-bacon/",
+            "ingredients" : ["1 bolsa de ensalada","100 gr de bacon cortado en trozos pequeños","2 cucharadas soperas de piñones","250 gr de mezcladillo de setas frescas","Aceite de oliva","Cebolla cortada en ciselé","Pimienta","Sal","Vinagre"],
+            "tags" : ["Primero","Bacon 🥓","Ensalada 🥗","Seta 🍄"]
+        },
+    
+        {
+            "title" : "Crema de puerros, patata y pera al azafrán",
+            "url" : "/recipes/crema-de-puerros-patata-pera-al-azafran/",
+            "ingredients" : ["1 pera grande","1 pizca de nuez moscada molida","1 pizca de pimentón dulce","100 ml de vino blanco","15 gr de mantequilla","2 patatas medianas","3 puerros","4 hebras de azafrán","600 ml de caldo de verduras","Aceite de oliva virgen extra","Pimienta negra molida","Sal","Yogur natural o queso fresco para servir"],
+            "tags" : ["Primero","Crema","Patata 🥔","Pera 🍐","Puerro"]
+        }
+    
+]
