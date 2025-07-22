@@ -7,6 +7,18 @@
         {
             "text": "Todas las recetas",
             "url": "/recipes/"
-        }
+        },
+	{
+	    "text": "Primeros",
+	    "url": "/tags/primero"
+	},
+	{
+	    "text": "Segundos",
+	    "url": "/tags/segundo"
+        },
+	{
+	    "text": "Postres",
+	    "url": "/tags/postre"
+	}
     ]
 }
