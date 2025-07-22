@@ -1,18 +1,14 @@
 ---
-layout: receta
-
 title: Gazpacho andaluz tradicional
-fuente:
-    title: Directo al Paladar
-    url: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional
+image: /img/recipes/gazpacho-andaluz-tradicional.jpg
+tags: [Primero, Crema, Pepino 🥒, Tomate 🍅]
+sourceLabel: Directo al Paladar
+sourceURL: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional
 menu: primero
-comensales: 6
-tiempo: 15 minutos
-tags: [crema,pepino,tomate]
+time: 15 min
+servings: 6
 
-img: gazpacho-andaluz-tradicional
-
-Ingredientes:
+ingredients:
     - 1 kg de tomate pera maduro
     - 1 pepino
     - 1 pimiento verde italiano
@@ -22,20 +18,24 @@ Ingredientes:
     - 5 gr de sal
     - 50 gr de miga de pan de hogaza duro
     - 50 ml de aceite de oliva virgen extra
-
-Pasos:
-    - Remojar el pan en agua durante 5 minutos.
-    - Pelar los dientes de ajo y extraer el gérmen.
-    - Lavar las verduras, trocearlas y colocarlas en una batidora de vaso o
-      de mano. También se puede usar un robot de cocina tipo Thermomix.
-    - Añadir el pan escurrido, el agua y el vinagre.
-    - Empezar a triturar a máxima velocidad, incorporando la sal y el
-      aceite poco a poco, durante 3 o 4 minutos.
-    - Pasar la mezcla por un chino o un colador, aprentando con un cucharón
-      para que quede una crema sin pieles ni semillas.
-    - Enfriar en la nevera al menos un par de horas, y servir frío.
-
-Notas: Se puede trocear las verduras y dejarlas a macerar con el aceite en la
-    nevera 24 horas antes, para que tenga un sabor más intenso.
-
 ---
+
+Remojamos el pan en agua durante 5 minutos.
+
+Pelamos los dientes de ajo y extraemos el gérmen.
+
+Lavamos las verduras, las troceamos y las colocamos en una batidora de vaso o
+de mano. También podemos usar un robot de cocina tipo Thermomix.
+
+Añadimos el pan escurrido, el agua y el vinagre.
+
+Empezamos a triturar a máxima velocidad, incorporando la sal y el aceite poco a
+poco, durante 3 o 4 minutos.
+
+Pasamos la mezcla por un chino o un colador, apretando con un cucharón para que
+quede una crema fina sin pieles ni semillas.
+
+Enfriamos en la nevera al menos un par de horas, y servimos frío.
+
+Tambien podemos trocear las verduras y dejarlas a macerar con el aceite en la
+nevera 24 horas antes, para que tenga un sabor más intenso.

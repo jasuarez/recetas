@@ -1,17 +1,12 @@
 ---
-layout: receta
-
 title: Hamburguesa de salmón
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: segundo
-comensales: 6
-tags: [pescado,salmón]
+image: /img/recipes/hamburguesa-de-salmon.jpg
+tags: [Segundo, Pescado 🐟, Salmón 🍣]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 6
 
-img: hamburguesa-de-salmon
-
-Ingredientes:
+ingredients:
     - 1 cucharada sopera de cebollino picado
     - 1 diente de ajo
     - 1 puerro
@@ -24,25 +19,29 @@ Ingredientes:
     - Sal
     - Tabasco
     - Tomate
-
-Pasos:
-    - Trocear el salmón en cuadraditos tipo tartar.
-    - Picar el ajo y el puerro en ciselé.
-    - En un bol mezclar el salmón con el ajo, el puerro, el cebollino y las
-      yemas de los huevos.
-    - Añadir sal y pimienta, y un poco de mostaza y tabasco, al gusto.
-    - Dividir en 6 porciones, y con ayuda de un molde dar forma para 6
-      hamburguesas.
-    - Pintar las hamburguesas con un poco de aceite, y las freírlas en una
-      sartén a fuego fuerte, unos 2 o 3 minutos por cada banda, dependiendo del
-      grosor.
-    - Calentar el pan de la hamburguesa en la plancha, colocar un poco de
-      lechuga, tomate, la hamburguesa, y tapar con la otra rebanada de pan.
-    - Servir.
-
-Notas: En vez de a la plancha, también se puede hacer la hamburguesa en el
-    horno. Así mismo, se puede sustituir el salmón por otro pescado, como el
-    atún. Por último, las hamburguesas se pueden congelar colocándolas entre dos
-    trozos de papel sulfurizado. Luego, simplemente es descongelar y freír.
-
 ---
+
+Troceamos el salmón en cuadraditos tipo tartar.
+
+Picamos el ajo y el puerro en ciselé.
+
+En un bol mezclamos el salmón con el ajo, el puerro, el cebollino y las yemas
+de los huevos.
+
+Añadimos sal y pimienta, y un poco de mostaza y tabasco, al gusto.
+
+Dividimos en tantas porciones como comensales, y con ayuda de un molde damos
+forma para tantas hamburguesas.
+
+Pintamos las hamburguesas con un poco de aceite, y las freímos en una sartén a
+fuego fuerte, unos 2 o 3 minutos por cada banda, dependiendo del grosor.
+
+Calentamos el pan de la hamburguesa en la plancha, colocamos un poco de lechuga
+y tomate en la hamburguesa, y tapamos con la otra rebanada de pan.
+
+Servimos.
+
+Alternativamente, en vez de a la plancha, también se puede hacer la hamburguesa
+en el horno. Asímismo, se puede sustituir el salmón por otro pescado, como el
+atún. Por último, las hamburguesas se pueden congelar colocándolas entre dos
+trozos de papel sulfurizado. Luego, simplemente es descongelar y freír.

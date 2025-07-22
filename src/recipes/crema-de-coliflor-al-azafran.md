@@ -1,18 +1,13 @@
 ---
-layout: receta
-
 title: Crema de coliflor al azafrán
-fuente:
-    title: Directo al Paladar
-    url: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-crema-de-coliflor-al-azafran
-menu: primero
-comensales: 4
-tiempo: 55 minutos
-tags: [crema, coliflor]
+image: /img/recipes/crema-de-coliflor-al-azafran.jpg
+tags: [Primero, Crema, Coliflor]
+sourceLabel: Directo al Paladar
+sourceURL: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-crema-de-coliflor-al-azafran
+time: 55 min
+servings: 4
 
-img: crema-de-coliflor-al-azafran
-
-Ingredientes:
+ingredients:
     - 1 cebolla
     - 1 coliflor
     - 1 l de caldo de verduras o agua
@@ -23,21 +18,27 @@ Ingredientes:
     - Mantequilla (opcional)
     - Pimienta negra molida
     - Sal
-
-Pasos:
-    - Pelar y picar la cebolla y los dientes de ajo.
-    - Limpiar, lavar y trocear el puerro.
-    - Opcionalmente, reservar un poco aparte sin picar para adornar.
-    - Separar la coliflor en tallos, limpiar y lavar, y cortar.
-    - En una cazuela amplia, calentar el aceite y la mantequilla, y rehogar la
-      cebolla, el puerro y el ajo durante unos minutos.
-    - Agregar la coliflor, sofreir unos minutos y salpimentar.
-    - Echar el azafrán, dar unas vueltas, y verter el caldo o agua.
-    - Tapar y dejar que se haga el conjunto unos 20 minutos, o hasta que la
-      coliflor esté tierna.
-    - Triturar la mezcla, y cocer 5 minutos más.
-    - Rectificar de sal si es necesario.
-    
-Notas: También podemos adornar con un poco de cebollino picado y queso rallado.
-
 ---
+
+Pelamos y picamos la cebolla y los dientes de ajo.
+
+Limpiamos, lavamos y troceamos el puerro. Opcionalmente, reservamos un poco
+aparte sin picar para adornar.
+
+Separamos la coliflor en tallos, los limpiamos y lavamos, y los cortamos.
+
+En una cazuela amplia, calentamos el aceite y la mantequilla, y rehogamos la
+cebolla, el puerro y el ajo durante unos minutos.
+
+Agregamos la coliflor, sofreímos unos minutos y salpimentamos.
+
+Echamos el azafrán, damos unas vueltas, y vertemos el caldo o agua.
+
+Tapamos y dejamos que se haga el conjunto unos 20 minutos, o hasta que la
+coliflor esté tierna.
+
+Trituramos la mezcla, y cocemos 5 minutos más.
+
+Rectificamos de sal si es necesario, y servimos.
+
+También podemos adornar con un poco de cebollino picado y queso rallado.

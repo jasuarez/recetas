@@ -1,17 +1,12 @@
 ---
-layout: receta
-
 title: Salmón con miel y mostaza
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: segundo
-comensales: 4
-tags: [pescado,salmón]
+image: /img/recipes/salmon-con-miel-y-mostaza.jpg
+tags: [Segundo, Miel 🍯, Pescado 🐟, Salmón 🍣]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 4
 
-img: salmon-con-miel-y-mostaza
-
-Ingredientes:
+ingredients:
     - 1 cucharada de café de piel rallada de limón
     - 2 cucharadas soperas de aceite de oliva virgen
     - 2 cucharadas soperas de miel
@@ -21,17 +16,22 @@ Ingredientes:
     - Eneldo
     - Pimienta
     - Sal
-
-Pasos:
-    - Cortar el salmón en dados medianos. Salpimentar y reservar.
-    - Poner en un bol el aceite de oliva, añadir la miel y mezclar.
-    - Añadir la mostaza y volver a mezclar.
-    - Añadir la piel rallada de limón, el zumo y el eneldo, y mezclar.
-    - Colocar el salmón en una bolsa zip de congelado, añadir el marinado,
-      mezclar y cerrar bien, y guardar en la nevera al menos 30 minutos.
-    - Una vez transcurrido este tiempo, en una fuente para horno poner papel
-      sulfurizado o de horno, añadir el salmón y repartir el marinado.
-    - Hornear a 200º entre 5 y 10 minutos, dependiendo del grosor del pescado.
-    - Servir acompañado de una ensalada de patatas o de arroz blanco largo.
-
 ---
+
+Cortamos el salmón en dados medianos. Salpimentamos y reservamos.
+
+Ponemos en un bol el aceite de oliva, añadimos la miel y mezclamos.
+
+Añadimos la mostaza y volvemos a mezclar.
+
+Añadimos la piel rallada de limón, el zumo y el eneldo, y mezclamos de nuevo.
+
+Colocamos el salmón en una bolsa zip de congelado, añadimos el marinado,
+mezclamos y cerramos bien. Guardamos en la nevera al menos 30 minutos.
+
+Una vez transcurrido este tiempo, en una fuente para horno ponemos papel
+sulfurizado o de horno, añadimos el salmón y repartimos el marinado.
+
+Horneamos a 200º entre 5 y 10 minutos, dependiendo del grosor del pescado.
+
+Servimos acompañado de una ensalada de patatas o de arroz blanco largo.

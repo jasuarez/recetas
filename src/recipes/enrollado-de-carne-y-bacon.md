@@ -1,17 +1,12 @@
 ---
-layout: receta
-
 title: Enrollado de carne y bacon
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: segundo
-comensales: 4
-tags: [carne,bacon]
+image: /img/recipes/enrollado-de-carne-y-bacon.jpg
+tags: [Segundo, Bacon 🥓, Carne 🥩]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 4
 
-img: enrollado-de-carne-y-bacon
-
-Ingredientes:
+ingredients:
     - 1 cebolla picada
     - 1 huevo batido
     - 100 gr de bacon ahumado picado
@@ -23,21 +18,26 @@ Ingredientes:
     - Perejil
     - Pimienta
     - Sal
-
-Pasos:
-    - Ponemos en un bol las carnes, el bacon picado, el perejil, el huevo
-      batido, la cebolla, el queso, sal y pimienta, y mezclamos bien.
-    - Sobre un trozo de film impregnado en aceite ponemos la mitad de la mezcla
-      y aplastamos hasta formar un rectángulo.
-    - Colocamos la mitad del huevo duro cortado en láminas en una hilera en el
-      centro del rectángulo.
-    - Con cuidado y con la ayuda del film vamos enrollando y dando forma de
-      tubo, asegurándose de ir sacando el film.
-    - Pintar con un poco de aceite el tubo de carne y rebozar en el pan rallado.
-    - Repetir los mismos pasos con la otra mitad de la mezcla.
-    - Poner en una bandeja de horno durante 20 minutos a 180º.
-    - Acompañar de ensalada, puré de patatas o bien unas patatas al horno.
-
-Notas: Este plato se puede tomar tanto frío como caliente.
-
 ---
+
+Ponemos en un bol las carnes, el bacon picado, el perejil, el huevo batido, la
+cebolla, el queso, sal y pimienta, y mezclamos bien.
+
+Sobre un trozo de film impregnado en aceite ponemos la mitad de la mezcla y
+aplastamos hasta formar un rectángulo.
+
+Colocamos la mitad del huevo duro cortado en láminas en una hilera en el centro
+del rectángulo.
+
+Con cuidado y con la ayuda del film vamos enrollando y dando forma de tubo,
+asegurándose de ir sacando el film.
+
+Pintamos con un poco de aceite el tubo de carne y rebozamos en el pan rallado.
+
+Repetimos los mismos pasos con la otra mitad de la mezcla.
+
+Ponemos en una bandeja de horno durante 20 minutos a 180º.
+
+Acompañamos de ensalada, puré de patatas o bien unas patatas al horno.
+
+Este plato se puede tomar tanto frío como caliente.

@@ -1,17 +1,12 @@
 ---
-layout: receta
-
 title: Pan con aceite y chocolate
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: postre
-comensales: 6
-tags: [pan,chocolate]
+image: /img/recipes/pan-con-aceite-y-chocolate.jpg
+tags: [Postre, Chocolate 🍫, Pan 🍞]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 6
 
-img: pan-con-aceite-y-chocolate
-
-Ingredientes:
+ingredients:
     - 125 ml de leche
     - 125 ml de nata líquida (mínimo de 32% mg)
     - 200 mg de chocolate negro
@@ -19,24 +14,29 @@ Ingredientes:
     - Pan de molde sin corteza
     - Sal en escamas
     - Aceite
-
-Pasos:
-    - Calentar la nata, la leche y el azúcar hasta que hierva.
-    - Cuando empieze a hervir añadir la mezcla encima de las yemas y mezclar un
-      poco.
-    - Añadir el chocolate en trozos o pepitas y con la ayuda de una minipimer
-      batir bien sin incorporar aire (es decir, con la minimiper al fondo sin
-      levantar).
-    - Cubrir bien con un film sin dejar ningún hueco con aire, y reservar en la
-      nevera un mínimo de 4 horas.
-    - Colocar las rodajas de pan entre dos films transparentes, y con la ayuda
-      de un rodicho aplanar bien el pan.
-    - Retirar el film y cortarlo en rectángulos (es decir, cortar el pan por la
-      mitad).
-    - Colocar el pan en una reja de horno, usando las propia reja para darle
-      formas.
-    - Tostar el pan en el horno a unos 200º hasta que estén dorados. Reservar.
-    - Colocar una bola de chocolate junto con cadat trozo de pan. Añadir aceite
-      y sal por encima y servir al momento.
-
 ---
+
+Calentamos la nata, la leche y el azúcar hasta que hierva.
+
+Cuando empieze a hervir añadimos la mezcla encima de las yemas y mezclamos un
+poco.
+
+Añadimos el chocolate en trozos o pepitas y con la ayuda de una minipimer
+batimos bien sin incorporar aire (es decir, con la minimiper al fondo sin
+levantar).
+
+Cubrimos bien con un film sin dejar ningún hueco con aire, y reservamos en la
+nevera un mínimo de 4 horas.
+
+Colocamos las rodajas de pan entre dos films transparentes, y con la ayuda de
+un rodillo aplanamos bien el pan.
+
+Retiramos el film y cortamos el pan por la mitad, formando dos rectángulos.
+
+Colocamos el pan en una reja de horno, usando las propia reja para darle
+formas.
+
+Tostamos el pan en el horno a unos 200º hasta que estén dorados. Reservamos.
+
+Colocamos una bola de chocolate junto con cada trozo de pan. Añadimos aceite y
+sal por encima y servimos al momento.

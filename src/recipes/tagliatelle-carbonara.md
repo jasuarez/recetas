@@ -1,40 +1,40 @@
 ---
-layout: receta
-
 title: Tagliatelle carbonara
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: segundo
-comensales: 6
-tags: [pasta]
+image: /img/recipes/tagliatelle-carbonara.jpg
+tags: [Segundo, Pasta 🍝]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 6
 
-img: tagliatelle-carbonara
-
-Ingredientes:
+ingredients:
     - 1 paquete de tagliatelle
-    - 1 yema de huevo por persona (opcional)
     - 100 gr de bacon
     - 100 gr de jamón serrano
     - 150 ml de leche
     - 2 cucharadas de queso parmesano rallado
     - 250 gr de chalota
     - 400 ml de nata de 18% mg
+    - 6 yemas de huevo, uno por persona (opcional)
     - Aceite
     - Mantequilla
     - Pimienta
     - Sal
-
-Pasos:
-    - Cocer el tagliatelle según las indicaciones del paquete.
-    - Picar la chalota en emincé y sofreir en aceite con mantequilla hasta que
-      tome un color dorado, sin que se llegue a tostar.
-    - En caso de que haya un exceso de aceite, filtrar el aceite sobrante.
-    - Añadir el bacon y el jamón cortados en dados (tipo macedonia).
-    - Poner la nata y la leche en una sartén y dejar reducir.
-    - Añadir el sofrito y el queso parmesano, salpimentar, y añadir los
-      tagliatelle.
-    - Remover bien y servir en un plato sopero.
-    - Opcionalmente, poner en el medio del plato la yema del huevo cruda.
-
 ---
+
+Cocemos el tagliatelle según las indicaciones del paquete.
+
+Picamos la chalota en emincé y sofreimos en aceite con mantequilla hasta que
+tome un color dorado, sin que se llegue a tostar.
+
+En caso de que haya un exceso de aceite, eliminamos el aceite sobrante.
+
+Añadimos el bacon y el jamón cortados en dados (tipo macedonia).
+
+Ponemos la nata y la leche en una sartén y dejamo reducir.
+
+Añadimos el sofrito y el queso parmesano, salpimentamos, y añadimos los
+tagliatelle.
+
+Removemos bien y servimos en un plato sopero.
+
+Opcionalmente, podemos poner en el medio del plato la yema del huevo cruda.

@@ -1,18 +1,13 @@
 ---
-layout: receta
-
 title: Crema de champiñones
-fuente:
-    title: Directo al Paladar
-    url: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/crema-de-champinones-receta
-menu: primero
-comensales: 4
-tiempo: 25 minutos
-tags: [crema, champiñón]
+image: /img/recipes/crema-de-champinones.jpg
+tags: [Primero, Crema, Champiñón 🍄‍🟫]
+sourceLabel: Directo al Paladar
+sourceURL: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/crema-de-champinones-receta
+time: 25 min
+servings: 4
 
-img: crema-de-champinones
-
-Ingredientes:
+ingredients:
     - 1 cebolla dulce, morada o cebolleta grande
     - 1 diente de ajo
     - 100 ml de vino blanco
@@ -24,22 +19,29 @@ Ingredientes:
     - Cebollino
     - Pimienta negra molida
     - Sal
-
-Pasos:
-    - Lavar bien los champiñones, secar y trocear.
-    - Picar la cebolla y el diente de ajo.
-    - Calentar una olla o cazuela con un poco de aceite o de mantequilla (o
-      ambas), y pochar la cebolla con una pizca de sal, hasta que esté blanda.
-    - Añadir el ajo y cocinar un par de minutos.
-    - Incorporar los champiñones, salpimentar y remover.
-    - Regar con el vino y dejar que se evapore el alcohol.
-    - Añadir el tomillo y el romero y dejar que se doren los champiñones.
-    - Cubrir con el caldo y tapar. LLevar a ebullición y reducir la
-      temperatura. Cocer unos 10 minutos.
-    - Si estuviese demasiado líquido, cocer un poco más sin la tapa para
-      reducir.
-    - Separar del fuego y triturar con una batidora, ajustando el nivel de
-      espesor al gusto añadiendo más caldo o agua.
-    - Corregir de sal, y servir con cebollino picado y un golpe de pimienta.
-
 ---
+
+Lavamos bien los champiñones, los secamos y troceamos.
+
+Picamos la cebolla y el diente de ajo.
+
+Calentamos una olla o cazuela con un poco de aceite o de mantequilla (o ambas),
+y pochamos la cebolla con una pizca de sal, hasta que esté blanda.
+
+Añadimos el ajo y cocinamos un par de minutos.
+
+Incorporamos los champiñones, salpimentamos y removemos.
+
+Regamos con el vino y dejamos que se evapore el alcohol.
+
+Añadimos el tomillo y el romero y dejamos que se doren los champiñones.
+
+Cubrimos con el caldo y tapamos. LLevamos a ebullición y reducimos la
+temperatura. Cocemos unos 10 minutos.
+
+Si estuviese demasiado líquido, cocemos un poco más sin la tapa par reducir.
+
+Separamos del fuego y trituramos con una batidora, ajustando el nivel de
+espesor al gusto añadiendo más caldo o agua.
+
+Corregimos de sal, y servimos con cebollino picado y un golpe de pimienta.

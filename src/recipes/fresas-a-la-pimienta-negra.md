@@ -1,34 +1,32 @@
 ---
-layout: receta
-
 title: Fresas a la pimienta negra
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: postre
-tags: [fresa,fruta]
+image: /img/recipes/fresas-a-la-pimienta-negra.jpg
+tags: [Postre, Fresa 🍓, Fruta]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
 
-img: fresas-a-la-pimienta-negra
-
-Ingredientes:
+ingredients:
     - 1 kg de fresas o fresones
     - 180 gr de azúcar
     - 200 gr de nata líquida (35% mg)
     - 50 ml de Grand Marnier o Cointreau
     - Pimienta negra molida (media cucharada de café o 18 vueltes de un
       molinillo)
-
-Pasos:
-    - Lavar las fresas, retirar la parte verde, y cortarlas en 4 trozos
-      (dependiendo del tamaño).
-    - Poner las fresas en un bol con el azúcar. Mezclar con cuidado.
-    - Añadir la pimienta negra y la nata, y volver a mezclar.
-    - Finalmente, añadir el licor y volver a mezclar.
-    - Guardar en la nevera (cubierto con un film transparente) al menos un par
-      de horas.
-    - Servir frío y decorado al gusto.
-
-Notas: Mejor hacerlo al mediodía y servirlo a la noche, o hacerlo a la noche y
-    servirlo al día siguiente.
-
 ---
+
+Lavamos las fresas, retiramos la parte verde, y las cortamos en 4 trozos
+(dependiendo del tamaño).
+
+Ponemos las fresas en un bol con el azúcar. Mezclamos con cuidado.
+
+Añadimos la pimienta negra y la nata, y volvemos a mezclar.
+
+Finalmente, añadimos el licor y volvemos a mezclar.
+
+Guardamos en la nevera (cubriendo con film transparente) al menos un par de
+horas.
+
+Servimos frío y decorado al gusto.
+
+Como recomendación, es mejor hacerlo al mediodía y servirlo a la noche, o
+hacerlo a la noche y servirlo al día siguiente, para que así estén bien frías.

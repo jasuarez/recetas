@@ -1,18 +1,13 @@
 ---
-layout: receta
-
 title: Crema de puerros, patata y pera al azafrán
-fuente:
-    title: Directo al Paladar
-    url: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/crema-de-puerros-patata-y-pera-al-azafran-receta
-menu: primero
-comensales: 4
-tiempo: 40 minutos
-tags: [crema, patata, pera, puerro]
+image: /img/recipes/crema-de-puerros-patata-pera-al-azafran.jpg
+tags: [Primero, Crema, Patata 🥔, Pera 🍐, Puerro]
+sourceLabel: Directo al Paladar
+sourceURL: https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/crema-de-puerros-patata-y-pera-al-azafran-receta
+time: 40 min
+servings: 4
 
-img: crema-de-puerros-patata-pera-al-azafran
-
-Ingredientes:
+ingredients:
     - 1 pera grande
     - 1 pizca de nuez moscada molida
     - 1 pizca de pimentón dulce
@@ -26,27 +21,39 @@ Ingredientes:
     - Pimienta negra molida
     - Sal
     - Yogur natural o queso fresco para servir
-
-Pasos:
-    - Separar medio cazo del caldo y calentar; añadir las hebras de azafrán y
-      reservar para que infusione.
-    - Cortar los puerros en rodajas.
-    - Pelar las patatas y cortar en datos.
-    - Pelar la pera y trocear, desechando el corazón.
-    - En una olla amplia derretir la mantequilla, añadiendo tambien aceite si
-      se desea.
-    - Añadir los puerros con una pizca de sal, y dar unas vueltas.
-    - Incorporar la patata, salpimentar y remover bien unos minutos.
-    - Cuando el puerro empiece a transparentar, agregar el vino blanco y subir
-      la temperatura para que se evapore el alcohol.
-    - Añadir la pera, la nuez moscada, el pimentón y un golpe de pimienta.
-    - Añadir el caldo con el azafrán y remover un minuto.
-    - Añadir el resto del caldo, tapar y llevar a ebullición.
-    - Reducir la temperatura, y dejar cocer lentamente unos 25 minutos.
-    - Tritutar todo con una batidora hasta dejar una consistencia melosa,
-      ajustando la cantidad de líquido al gusto.
-    - Probar de sal y corregir si fuera necesario.
-    - Servir con un golpe de pimienta recién molida, un poco de aceite de oliva
-      virgen extra y una cucharada de crema fresca, yogur o queso.
-
 ---
+
+Separamos medio cazo del caldo y calentamos; añadir las hebras de azafrán y
+reservamos para que infusione.
+
+Cortamos los puerros en rodajas.
+
+Pelamos las patatas y las cortamos en dados.
+
+Pelamos y troceamos la pera, desechando el corazón.
+
+En una olla amplia derretimos la mantequilla, añadiendo tambien aceite si se
+desea.
+
+Añadimos los puerros con una pizca de sal, y damos unas vueltas.
+
+Incorporamos la patata, salpimentamos y removemos bien unos minutos.
+
+Cuando el puerro empiece a transparentar, agregamos el vino blanco y subimos la
+temperatura para que se evapore el alcohol.
+
+Añadimos la pera, la nuez moscada, el pimentón y un golpe de pimienta.
+
+Añadimos el caldo con el azafrán y removemos un minuto.
+
+Añadimos el resto del caldo, tapamos y llevamos a ebullición.
+
+Reducimos la temperatura, y dejamos cocer lentamente unos 25 minutos.
+
+Tritutamos todo con una batidora hasta dejar una consistencia melosa, ajustando
+la cantidad de líquido al gusto.
+
+Probamos de sal y corregimos si fuera necesario.
+
+Servimos con un golpe de pimienta recién molida, un poco de aceite de oliva
+virgen extra y una cucharada de crema fresca, yogur o queso.

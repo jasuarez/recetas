@@ -1,18 +1,13 @@
 ---
-layout: receta
-
 title: Spaguetti con salsa carbonara
-fuente:
-    title: Directo al Paladar
-    url: https://www.directoalpaladar.com/videos-recetas/receta-salsa-carbonara-asi-hacen-italianos-video-incluido
-menu: segundo
-comensales: 2
-tiempo: 20 minutos
-tags: [pasta,salsa]
+image: /img/recipes/spaguetti-con-salsa-carbonara.jpg
+tags: [Segundo, Pasta 🍝, Salsa]
+sourceLabel: Directo al Paladar
+sourceURL: https://www.directoalpaladar.com/videos-recetas/receta-salsa-carbonara-asi-hacen-italianos-video-incluido
+time: 20 min
+servings: 2
 
-img: spaguetti-con-salsa-carbonara
-
-Ingredientes:
+ingredients:
     - 100 gr de panceta
     - 2 yemas de huevo
     - 200 gr de pasta larga seca (tallarines, espaguetis, etc)
@@ -20,19 +15,23 @@ Ingredientes:
     - Agua de cocer la pasta
     - Pimienta negra molida
     - Sal
-
-Pasos:
-    - Mezclar en un recipiente hondo y amplio las yemas de huevo y el queso
-      parmesano rallado.
-    - Salpimentar a gusto (tener en cuenta que el queso parmesano tiene mucha
-      sal).
-    - Cortar la panceta en tiras y saltear en una sarten sin aceite hasta
-      dorar. Retirar y reservar.
-    - Cocer la pasta en abundante agua con sal durante el tiempo que indique el
-      fabricante.
-    - Aligerar la mezcla de huevo y queso con un poco del agua de la cocción de
-      la pasta.
-    - Añadir la pasta escurrida y la panceta.
-    - Mezcla bien y servir.
-
 ---
+
+Mezclamos en un recipiente hondo y amplio las yemas de huevo y el queso
+parmesano rallado.
+
+Salpimentamos a gusto (tener en cuenta que el queso parmesano ya tiene mucha
+sal).
+
+Cortamos la panceta en tiras y la salteamos en una sartén sin aceite hasta
+dorar. Retiramos y reservamos.
+
+Cocemos la pasta en abundante agua con sal durante el tiempo que indique el
+fabricante.
+
+Aligeramos la mezcla de huevo y queso con un poco del agua de la cocción de la
+pasta.
+
+Añadimos la pasta escurrida y la panceta.
+
+Mezclamos bien y servimos.

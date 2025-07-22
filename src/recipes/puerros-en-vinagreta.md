@@ -1,17 +1,12 @@
 ---
-layout: receta
-
 title: Puerros en vinagreta
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: primero
-comensales: 6
-tags: [verdura,puerro]
+image: /img/recipes/puerros-en-vinagreta.jpg
+tags: [Primero, Puerro, Verdura 🥦]
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 6
 
-img: puerros-en-vinagreta
-
-Ingredientes:
+ingredients:
     - 1 kg de puerros
     - 1 cucharada de café de mostaza
     - 3 cucharadas soperas de vinagre
@@ -20,20 +15,20 @@ Ingredientes:
     - Cebollino
     - Sal
     - Pimienta
-
-Pasos:
-    - Cortar los puerros por la mitad a lo largo, y luego en dos o tres trozos
-      dependiendo del largo. Cocerlos al vapor unos 20 minutos.
-    - Mientras tanto, poner los huevos en un cazo con agua fria y cocerlos (unos
-      10 o 12 minutos desde que rompe a hervir).
-    - Preparar la vinagreta mezclando la mostaza, la sal, la pimienta y el
-      vinagre. Una vez integrado añadir el aceite y el cebollino picado muy
-      fino.
-    - Repartir los puerros en los platos, cubrirlos con la vinagreta y
-      espolvorear por encima con un poco de la yema del huevo.
-    - Servir templado.
-
-Notas: Como alternativa a los puerros se pueden emplear también espárragos
-    blancos.
-
 ---
+
+Cortamos los puerros por la mitad a lo largo, y luego en dos o tres trozos
+dependiendo del largo. Los Cocemos al vapor unos 20 minutos.
+
+Mientras tanto, ponemos los huevos en un cazo con agua fria y los cocemos (unos
+10 o 12 minutos desde que rompe a hervir).
+
+Preparamos la vinagreta mezclando la mostaza, la sal, la pimienta y el vinagre.
+Una vez integrado añadimos el aceite y el cebollino picado muy fino.
+
+Repartimos los puerros en los platos, los cubrimos con la vinagreta y
+espolvoreamos por encima con un poco de la yema del huevo.
+
+Servimos templado.
+
+Como alternativa a los puerros se pueden emplear también espárragos blancos.

@@ -1,30 +1,26 @@
 ---
-layout: receta
-
 title: Pie helado
-fuente:
-    title: Lékué
-    url: https://www.lekue.com/es/pie-helado
-menu: postre
-comensales: 4
-tags: [helado]
+image: /img/recipes/pie-helado.jpg
+tags: [Postre, Helado 🍦]
+sourceLabel: Lékué
+sourceURL: https://www.lekue.com/es/pie-helado
+servings: 4
 
-img: pie-helado
-
-Ingredientes:
+ingredients:
     - 2 petit suisse de fresa
     - 25 gr de azúcar
     - 50 ml de nata para montar
     - 75 ml de leche entera
-
-Pasos:
-    - En un cazo mezclar la leche con el azúcar, calentar y remover hasta que
-      se disuelva.
-    - Retirar del fuego y dejar enfriar.
-    - Añadir los petit suisse y mezclar bien.
-    - Montar la nata (bien fría) y añadir a la mezcla anterior, removiendo con
-      cuidado.
-    - Introducir en los moldes y congelar.
-    - Desmontar con cuidado y disfrutar.
-
 ---
+
+En un cazo mezclamos la leche con el azúcar, calentamos y removemos hasta que
+se disuelva. Retiramos del fuego y dejamos enfriar.
+
+Añadimos los petit suisse y mezclamos bien.
+
+Montamos la nata (bien fría) y añadimos a la mezcla anterior, removiendo con
+cuidado.
+
+Introducimos la mezla en los moldes y congelamos.
+
+Desmontamos con cuidado y a disfrutar.

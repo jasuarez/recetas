@@ -1,48 +1,50 @@
 ---
-layout: receta
-
 title: Crullers de naranja y miel
-fuente:
-    title: Su 23.11, Espai de Cuina
-    url: https://www.espaidecuina.com
-menu: postre
-comensales: 4
-tags: [naranja,miel]
+tags: [Postre, Miel 🍯, Naranja 🍊]
+image: /img/recipes/crullers-de-naranja-y-miel.jpg
+sourceLabel: Su 23.11, Espai de Cuina
+sourceURL: https://www.espaidecuina.com
+servings: 4
 
-img: crullers-de-naranja-y-miel
+ingredients:
+    - Para los crullers
+    - 1 clara de huevo
+    - 1 huevo
+    - 125 ml de leche
+    - 15 gr de azúcar
+    - 45 gr de mantequilla
+    - 80 gr de harina
+    - 1 naranja o mandarina (la piel en un trozo)
+    - Aceite
+    - Sal
 
-Ingredientes:
-    Para los crullers:
-        - 1 clara de huevo
-        - 1 huevo
-        - 125 ml de leche
-        - 15 gr de azúcar
-        - 45 gr de mantequilla
-        - 80 gr de harina
-        - Piel de naranja en un trozo (o de mandarina)
-        - Aceite
-        - Sal
-    Para el glaseado:
-        - 1 cucharada de café de agua
-        - 1 cucharada de café de miel
-        - 40 gr de azúcar glass
-
-Pasos:
-    - Poner en un cazo la leche, el azúcar, la piel de naranja y dejar que
-      empiece a hervir.
-    - Cuando comienze a hervir añadir la mantequilla y dejar que se deshaga.
-    - A continuación retirar la piel de naranja y añadir la harina y un poco de
-      sal, y remover. Dejar cocer 5 minutos a fuego suave para que pierda la
-      humedad.
-    - Retirar del fuego y añadir el huevo, integrarlo y luego añadir la clara.
-    - Poner la masa en una manga pastelera con una boquilla rizada, y formar
-      redondeces (como pequeños donuts) encima de papel sulfurizado.
-    - Freírlos en aceite caliente hasta que estén dorados. Para mayor comodidad,
-      recortar cada uno con su papel y echar directamente en el aceite. El papel
-      se separará inmediatamente, y se podrá retirar. Una vez dorados retirar y
-      dejarlos sobre papel absorvente.
-    - Hacer el glaseado mezclando todos los ingredientes en un cazo.
-    - Añadir el glaseado por encima sobre una reja (para que que el exceso se
-      cole).
-
+    - Para el glaseado
+    - 1 cucharada de café de agua
+    - 1 cucharada de café de miel
+    - 40 gr de azúcar glass
 ---
+
+Ponemos en un cazo la leche, el azúcar, la piel de naranja y dejamos que
+empiece a hervir.
+
+Cuando comienze a hervir añadimos la mantequilla y dejamos que se deshaga.
+
+A continuación retiramos la piel de naranja y añadimos la harina y un poco de
+sal, y removemos. Dejamos cocer 5 minutos a fuego suave para que pierda la
+humedad.
+
+Retiramos del fuego y añadimos el huevo, lo integramos y luego añadimos la
+clara.
+
+Ponemos la masa en una manga pastelera con una boquilla rizada, y formamos
+redondeces (como pequeños donuts) encima de papel sulfurizado.
+
+Los freímos en aceite caliente hasta que estén dorados. Para mayor comodidad,
+recortamos cada uno con su papel y echamos directamente en el aceite. El papel
+se separará inmediatamente, y se podrá retirar. Una vez dorados, retiramos y
+los dejamos sobre papel absorvente.
+
+Hacemos el glaseado mezclando todos los ingredientes en un cazo.
+
+Añadimos el glaseado por encima sobre una reja (para que que el exceso se
+cuele).
