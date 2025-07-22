@@ -8,5 +8,7 @@
     "searchContainsLabel": "Contiene",
     "servingsLabel": "comensales",
     "ingredientsLabel": "Ingredientes",
-    "baseURL": "https://cenandoalasnueve.terralan.org"
+    "baseURL": "https://cenandoalasnueve.terralan.org",
+    "matomoServer": "https://analytics.terralan.org",
+    "matomoSiteId": "1"
 }
