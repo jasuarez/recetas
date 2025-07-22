@@ -40,7 +40,7 @@
                     <template x-if="currentServings">
                         <ul class="c-recipe__ingredients-list">
                             <template x-for="(ingredient, index) in ingredients" :key="index">
-                                <li x-text="adaptQuantity(ingredient, {{servings}}, currentServings)"></li>
+                                <li x-text="adaptQuantity(ingredient, {{servings}}, currentServings)" :style="ingredient.includes('Para ') ? 'font-weight: bold;' : ''"></li>
                             </template>
                         </ul>
                     </template>
@@ -48,7 +48,11 @@
                     <template x-if="!currentServings">
                         <ul class="c-recipe__ingredients-list">
                             {% for ingredient in ingredients %}
-                                <li>{{ ingredient }}</li>
+                                {% if "Para " in ingredient %}
+                                    <li><strong>{{ ingredient }}</strong></li>
+                                {% else %}
+                                    <li>{{ ingredient }}</li>
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </template>
