@@ -1,4 +1,5 @@
 OUTPUTDIR=$(CURDIR)/_site
+CNAME=cenandoalasnueve.terralan.org
 
 help:
 	@echo 'Makefile for a Eleventy Web site                                       '
@@ -24,6 +25,6 @@ serve:
 	npm run dev
 
 publish: build
-	./vendor/bin/ghp-import -n -p -f $(OUTPUTDIR)
+	ghp-import -n -p -f -c $(CNAME) $(OUTPUTDIR)
 
 .PHONY: help init build clean serve publish
