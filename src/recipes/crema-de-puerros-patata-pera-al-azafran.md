@@ -23,7 +23,7 @@ ingredients:
     - Yogur natural o queso fresco para servir
 ---
 
-Separamos medio cazo del caldo y calentamos; añadir las hebras de azafrán y
+Separamos la mitad del caldo y calentamos; añadir las hebras de azafrán y
 reservamos para que infusione.
 
 Cortamos los puerros en rodajas.
