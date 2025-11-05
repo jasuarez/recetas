@@ -12,6 +12,8 @@ help:
 	@echo '   make serve                       serve site at http://localhost:8080'
 	@echo '                                                                       '
 
+#nvm:
+	#nvm use --lts
 init:
 	npm install
 
