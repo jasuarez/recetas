@@ -296,6 +296,13 @@
         },
     
         {
+            "title" : "Spaguetti con mejillones",
+            "url" : "/recipes/spaguetti-con-mejillones/",
+            "ingredients" : ["1 puñado de perejil fresco","12 tomates cherry","2 dientes de ajo","200 gr de espaguetis","3 anchoas","500 gr de mejillnes (preferiblemente de roca)","Aceite de oliva virgen extra","Guindilla seca (al gusto)","Sal"],
+            "tags" : ["Segundo","Mejillón","Pasta 🍝"]
+        },
+    
+        {
             "title" : "Spaguetti con salsa carbonara",
             "url" : "/recipes/spaguetti-con-salsa-carbonara/",
             "ingredients" : ["100 gr de panceta","2 yemas de huevo","200 gr de pasta larga seca (tallarines, espaguetis, etc)","50 gr de queso parmesano","Agua de cocer la pasta","Pimienta negra molida","Sal"],

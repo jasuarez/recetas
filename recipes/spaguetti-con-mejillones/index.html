@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alubia 🫘 - Cenando a las Nueve</title>
+    <title>Spaguetti con mejillones - Cenando a las Nueve</title>
     <meta name="description" content="Un lugar donde tener mis recetas">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 105 55%22><text y=%22.9em%22 font-size=%2275%22>🍽️</text></svg>">
-    <meta property="og:title" content="Alubia 🫘 - Cenando a las Nueve" />
+    <meta property="og:title" content="Spaguetti con mejillones - Cenando a las Nueve" />
 
+    
+      <meta property="og:image" content="https://cenandoalasnueve.terralan.org/img/recipes/spaguetti-con-mejillones.jpg" />
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="https://cenandoalasnueve.terralan.org/img/recipes/spaguetti-con-mejillones.jpg" />
+      <meta property="og:image:alt" content="Page image for Spaguetti con mejillones" />
+      <meta name="twitter:image:alt" content="Page image for Spaguetti con mejillones" />
     
     
     <style>
@@ -175,340 +181,130 @@
 
     <main>
         
-    <main>
-        <section>
-            <div class="l-container">
-                <h1>Alubia 🫘</h1>
+    <picture><source type="image/webp" srcset="/img/recipes/BRarztSu3U-600.webp 600w, /img/recipes/BRarztSu3U-1500.webp 1500w" sizes="100vw"><img src="/img/recipes/BRarztSu3U-600.jpeg" class="c-recipe__header-image" alt="Spaguetti con mejillones" loading="lazy" decoding="async" width="1500" height="1125" srcset="/img/recipes/BRarztSu3U-600.jpeg 600w, /img/recipes/BRarztSu3U-1500.jpeg 1500w" sizes="100vw"></picture>
+    <h1 class="c-recipe__title">Spaguetti con mejillones</h1>
+    <section>
+        <div class="l-container">
+            <div class="c-recipe__recipe-content-wrapper">
+                <div class="c-recipe__tag-list">
+                    
+                        <a class="c-tags__tag" href="/tags/segundo">Segundo</a>
+                    
+                        <a class="c-tags__tag" href="/tags/mejillon">Mejillón</a>
+                    
+                        <a class="c-tags__tag" href="/tags/pasta">Pasta 🍝</a>
+                    
+                </div>
+                <div class="c-recipe__ingredients-wrapper" x-data='{currentServings: 2, ingredients: decodeURI("1%20pu%C3%B1ado%20de%20perejil%20fresco%C2%A312%20tomates%20cherry%C2%A32%20dientes%20de%20ajo%C2%A3200%20gr%20de%20espaguetis%C2%A33%20anchoas%C2%A3500%20gr%20de%20mejillnes%20(preferiblemente%20de%20roca)%C2%A3Aceite%20de%20oliva%20virgen%20extra%C2%A3Guindilla%20seca%20(al%20gusto)%C2%A3Sal").split("£") }'>
+                    
+                        <div class="c-recipe__additional-info">
+                            
+                            
+                                <p>
+                                    <template x-if="currentServings > 1">
+                                        <button @click="currentServings -= 1" class="c-recipe__serving-button">
+                                            -
+                                            <span class="u-sr-only">Remove 1 serving</span>
+                                        </button>
+                                    </template>
+                                    <span x-text="currentServings"></span>
+                                    <button @click="currentServings += 1" class="c-recipe__serving-button">
+                                        +
+                                        <span class="u-sr-only">Add 1 serving</span>
+                                    </button>
+                                    <span>comensales</span>
+                                </p>
+                            
+                        </div>
+                    
 
-                
-            </div>
-        </section>
-        <section class="u-bgc-grey-100">
-            <div class="l-container">
-                <div class="c-card__wrapper">
+                    <h3>Ingredientes</h3>
+                    <template x-if="currentServings">
+                        <ul class="c-recipe__ingredients-list">
+                            <template x-for="(ingredient, index) in ingredients" :key="index">
+                                <li x-text="adaptQuantity(ingredient, 2, currentServings)" :style="ingredient.includes('Para ') ? 'font-weight: bold;' : ''"></li>
+                            </template>
+                        </ul>
+                    </template>
+
+                    <template x-if="!currentServings">
+                        <ul class="c-recipe__ingredients-list">
+                            
+                                
+                                    <li>1 puñado de perejil fresco</li>
+                                
+                            
+                                
+                                    <li>12 tomates cherry</li>
+                                
+                            
+                                
+                                    <li>2 dientes de ajo</li>
+                                
+                            
+                                
+                                    <li>200 gr de espaguetis</li>
+                                
+                            
+                                
+                                    <li>3 anchoas</li>
+                                
+                            
+                                
+                                    <li>500 gr de mejillnes (preferiblemente de roca)</li>
+                                
+                            
+                                
+                                    <li>Aceite de oliva virgen extra</li>
+                                
+                            
+                                
+                                    <li>Guindilla seca (al gusto)</li>
+                                
+                            
+                                
+                                    <li>Sal</li>
+                                
+                            
+                        </ul>
+                    </template>
+                </div>
+
+                <div class="c-recipe__instructions-wrapper u-free-text">
                     
-                        
+                        <p><i>Fuente: <a href="https://www.directoalpaladar.com/recetas-de-pasta/receta-de-espaguetis-con-mejillones" target="_blank" rel="noopener">Directo al Paladar</a></i></p>
                     
-                         
-                            <div class="c-card">
-                                <picture><source type="image/webp" srcset="/img/recipes/vEo-7dmTQU-600.webp 600w, /img/recipes/vEo-7dmTQU-1500.webp 1500w" sizes="(min-width: 1150px) 25vw, (min-width: 850px) 33vw, (min-width: 550px) 50vw, 100vw"><img src="/img/recipes/vEo-7dmTQU-600.jpeg" class="c-card__image" alt="Alubias blancas con costillas de cerdo" loading="lazy" decoding="async" width="1500" height="1125" srcset="/img/recipes/vEo-7dmTQU-600.jpeg 600w, /img/recipes/vEo-7dmTQU-1500.jpeg 1500w" sizes="(min-width: 1150px) 25vw, (min-width: 850px) 33vw, (min-width: 550px) 50vw, 100vw"></picture>
-                                <div class="c-card__info">
-                                    
-                                    
-                                        <div class="card__time">
-                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.015 13.662a6.11 6.11 0 01-.375.082.604.604 0 00.22 1.186c.149-.028.3-.06.447-.097a.603.603 0 10-.292-1.17zM13.475 5.58a.6.6 0 00.762.383.603.603 0 00.383-.762 7.546 7.546 0 00-.157-.43.603.603 0 10-1.12.449c.047.118.091.24.132.36zM10.975 12.802c-.107.07-.216.138-.327.202a.603.603 0 10.603 1.044c.131-.076.262-.156.389-.24a.603.603 0 00-.665-1.006zM14.994 7.264a.603.603 0 00-1.205.048c.005.127.007.256.004.383a.603.603 0 101.205.027 7.501 7.501 0 00-.004-.458zM13.376 11.215a.603.603 0 00-.844.12 6.354 6.354 0 01-.24.3.603.603 0 00.918.782c.099-.115.195-.236.286-.358a.603.603 0 00-.12-.844zM14.262 9.036a.603.603 0 00-.755.395c-.038.121-.08.243-.126.362a.603.603 0 001.127.43c.054-.142.104-.287.15-.432a.603.603 0 00-.396-.755zM6.384 13.75a6.227 6.227 0 01-1.546-.492l-.017-.01a6.568 6.568 0 01-.343-.173l-.002-.001a6.3 6.3 0 01-2.12-9.143 6.266 6.266 0 011.546-1.539l.022-.015a6.303 6.303 0 017.064-.057l-.47.681c-.132.19-.051.328.178.307l2.047-.183c.23-.02.366-.22.305-.441l-.55-1.98c-.061-.222-.219-.249-.35-.06l-.472.683A7.447 7.447 0 005.648.29h-.004l-.022.006A7.436 7.436 0 001.5 3.06l-.025.031a7.074 7.074 0 00-.261.376c-.007.01-.011.02-.017.03A7.434 7.434 0 00.008 7.88v.016c.007.15.019.304.035.455 0 .01.003.02.004.029a7.442 7.442 0 002.163 4.492l.008.008.003.002c.295.29.615.56.96.803a7.434 7.434 0 002.99 1.251.603.603 0 10.213-1.187z"/><path d="M7.13 2.683a.488.488 0 00-.488.488v4.86l4.446 2.299a.485.485 0 00.657-.21.488.488 0 00-.21-.657L7.619 7.438V3.17a.488.488 0 00-.488-.488z"/></g><defs><clipPath id="clip0"><path fill="#fff" d="M0 0h15v15H0z"/></clipPath></defs></svg>
-                                            27 min
-                                        </div>
-                                    
-                                </div>
-                                <a class="c-card__title-wrapper" href="/recipes/alubias-blancas-con-costillas-de-cerdo/">
-                                    <h3 class="c-card__title">Alubias blancas con costillas de cerdo</h3>
-                                </a>
-                            </div>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
+                    <p>Limpiamos bien los mejillones.</p>
+<p>Laminamos los ajos y troceamos la guindilla seca.</p>
+<p>Lavamos y cortamos por la mitad los tomates cherry.</p>
+<p>Ponemos en una olla con agua a hervir, añadimos sal, y cocemos la
+pasta tal y como indica el fabricante, pero retirándola uno o dos
+minutos antes de lo que marca las instrucciones.</p>
+<p>En una sartén o cazuela baja grande añadimos un poco de aceite y lo
+calentamos a fuego medio.</p>
+<p>Añadimos los dientes de ajo, la guindilla y los filetes de anchoa. Al
+cabo de unos minutos añadimos los tomates cherry a la sartén. Los
+aplastamos con la ayuda de una cuchara o espátula, y dejamos que se
+cocine la salsa, hasta que las anchoas desaparezcan por completo (unos
+5 minutos).</p>
+<p>Ahora añadimos a la sartén los mejillones, los mezclamos bien con la
+salssa, tapamos y esperamos a que se abran todos.</p>
+<p>Escurrimos la pasta, reservando un cazo con el agua de cocción, y
+añadimos la pasta a la sarten, junto con el perejil fresco
+picado. Seguimos cocinando a fuego bajo durante uno o dos minutos, y
+servimos.</p>
+<p>Podemos usar el agua de la cocción para aligerar la salsa si se desea.</p>
+
                 </div>
             </div>
-        </section>
-        
-            <section>
-                <div class="l-container">
-                    <nav>
-    <ul class="c-tags">
-        
-            <li><a class="c-tags__tag" href="/recipes">Todas las recetas</a></li>
-        
-        
-            
-                <li class="c-tags__tag c-tag__tag--selected">Alubia 🫘</li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/arroz">Arroz 🍚</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/atun">Atún</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/butifarra">Butifarra 🌭</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/bacon">Bacon 🥓</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/caldo">Caldo 🥣</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/carne">Carne 🥩</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/cerdo">Cerdo 🐖</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/conejo">Conejo 🐇</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/chorizo">Chorizo</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/cuscus">Cuscús</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/cereza">Cereza 🍒</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/crema">Crema</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/champinon">Champiñón 🍄‍🟫</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/coliflor">Coliflor</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/cafe">Café ☕</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/chocolate">Chocolate 🍫</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/ensalada">Ensalada 🥗</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/fresa">Fresa 🍓</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/fruta">Fruta</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/flan">Flan 🍮</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/gamba">Gamba 🦐</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/garbanzo">Garbanzo</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/helado">Helado 🍦</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/lasana">Lasaña</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/legumbre">Legumbre 🫛</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/limon">Limón 🍋</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/merluza">Merluza</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/miel">Miel 🍯</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/mejillon">Mejillón</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/mostaza">Mostaza</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/naranja">Naranja 🍊</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pollo">Pollo 🍗</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pasta">Pasta 🍝</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pescado">Pescado 🐟</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/patata">Patata 🥔</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/primero">Primero</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pera">Pera 🍐</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/puerro">Puerro</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pepino">Pepino 🥒</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/postre">Postre</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/pan">Pan 🍞</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/queso">Queso 🧀</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/segundo">Segundo</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/salmon">Salmón 🍣</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/salsa">Salsa</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/seta">Seta 🍄</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/tomate">Tomate 🍅</a></li>
-            
-        
-            
-                <li><a class="c-tags__tag" href="/tags/verdura">Verdura 🥦</a></li>
-            
-        
-    </ul>
-</nav>
-                </div>
-            </section>
-        
-    </main>
+        </div>
+    </section>
+
+    <script>
+        function adaptQuantity (ingredient, originalServings, currentServings) {
+            return ingredient.replace(/(\d|\.|,)+/, match => Number(Math.round(parseFloat(match.replace(',', '.')) * currentServings / originalServings + 'e' + 2) + 'e-' + 2));
+        }
+    </script>
 
     </main>
 
